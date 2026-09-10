@@ -88,7 +88,7 @@
 "founder": {
   "title": "Our Founder",
   "name": "[Founder's Name]",
-  "desc": "The founding figure of the Old Boys' Association, who brought together the first generation of Old Jeilanians with a vision of unity and service. Under his leadership, the Association took its first formal steps — laying the foundation for the fellowship that continues to grow today."
+  "desc": "The founding figure of the Old Boys' Association, who brought together the first generation of Old Jeilanians with a vision of unity and service. Under his leadership, the Association took its first formal steps - laying the foundation for the fellowship that continues to grow today."
 },
 "schoolOverview": {
   "title": "Our School",
@@ -98,11 +98,11 @@
 
 "president": {
   "title": "Message from the President",
-  "p1": "On behalf of the Old Boys' Association of R/Jeilani Central College, it is my honour to welcome you — whether you are an Old Jeilanian reconnecting with your roots, a current student looking ahead to the fellowship that awaits you, or a friend of our school discovering us for the first time.",
-  "p2": "Our College has always stood for unity across communities and faiths, and that same spirit defines who we are as an Association today. We are not simply an organisation of the past — we are a living, active community shaping the future of our alma mater through scholarships, infrastructure, mentorship, and fellowship.",
+  "p1": "On behalf of the Old Boys' Association of R/Jeilani Central College, it is my honour to welcome you - whether you are an Old Jeilanian reconnecting with your roots, a current student looking ahead to the fellowship that awaits you, or a friend of our school discovering us for the first time.",
+  "p2": "Our College has always stood for unity across communities and faiths, and that same spirit defines who we are as an Association today. We are not simply an organisation of the past - we are a living, active community shaping the future of our alma mater through scholarships, infrastructure, mentorship, and fellowship.",
   "p3": "I warmly invite every Old Jeilanian, wherever you may be in the world, to stay connected, get involved, and take pride in the legacy we carry forward together.",
   "name": "[President's Full Name]",
-  "role": "President, Old Boys' Association — R/Jeilani Central College"
+  "role": "President, Old Boys' Association - R/Jeilani Central College"
 },
 "executive": {
   "title": "Executive Committee",
