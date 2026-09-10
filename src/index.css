@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #660033;
+  --color-maroon-light: #8A0044;
+  --color-maroon-dark: #4A0025;
+  --color-gold: #D4AF37;
+  --color-gold-light: #E5C55A;
+  --color-offwhite: #F8F9FA;
+  --font-sans: "Inter", "Noto Sans Tamil", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-offwhite);
+    color: #1f2937; /* text-gray-800 */
+    -webkit-font-smoothing: antialiased;
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "school": "Our School",
+        "committee": "Committee",
+        "projects": "Projects",
+        "membership": "Membership",
+        "contact": "Contact",
+        "register": "Register",
+        "news": "Newsroom",
+        "events": "Events",
+        "gallery": "Gallery"
+      },
+      "hero": {
+        "subtitle": "Old Boys' Association",
+        "title": "R/Jeilani Central College",
+        "btn": "Join the Fellowship",
+        "scroll": "SCROLL"
+      },
+      
+    "whoWeAre": {
+      "title": "Who We Are",
+      "p1": "The Old Boys' Association (OBA) of R/Jeilani Central College is a proud fellowship of alumni who once walked the same corridors, sat in the same classrooms, and shared in the same values of discipline, brotherhood, and excellence at our alma mater in Dehigastalawa, Balangoda.",
+      "p2": "Our College has always stood as a place of unity in diversity - a national school where students of many faiths and communities have studied together in the English and Tamil mediums, guided by a shared commitment to knowledge, respect, and service. That same spirit of unity carries through into our Association today.",
+      "p3": "The OBA brings together Old Jeilanians from every walk of life - professionals, entrepreneurs, educators, and public servants - who remain connected by gratitude to the institution that shaped their formative years, and by a shared responsibility to give back."
+    },
+    "vision": {
+      "title": "Vision",
+      "desc": "To be a united, active, and enduring fellowship of Old Jeilanians - working hand in hand to safeguard the legacy of R/Jeilani Central College, and to empower present and future generations through education, unity, and selfless service."
+    },
+    "mission": {
+      "title": "Mission",
+      "desc": "To strengthen the bonds of fellowship among Old Jeilanians across generations, professions, and geographies. To support the academic excellence, sporting achievement, and infrastructural development of R/Jeilani Central College."
+    }
+  }
