@@ -80,45 +80,148 @@
     "btnSecondary": "Contact Us"
   },
   "story": {
-  "title": "Our Story",
-  "quote": "Every great institution is carried forward not only by those who lead it, but by those who never truly leave it. The Old Boys' Association of R/Jeilani Central College was born from that very truth.",
-  "p2": "Long after leaving the classrooms of our school in Dehigastalawa, Balangoda, generations of former students continued to return - for a conversation with an old friend, a visit to a beloved teacher, or a chance to relive the memories of their school days. What began as informal gatherings of Old Jeilanians steadily grew into a shared resolve: to organise, to unite, and to give back in a structured and lasting way. That resolve became the Old Boys' Association.",
-  "p3": "Since then, the Association has grown into a vibrant community connecting Old Jeilanians across professions and generations - united by gratitude to the school that shaped them, and by a shared commitment to see it flourish for generations to come."
-},
-"founder": {
-  "title": "Our Founder",
-  "name": "[Founder's Name]",
-  "desc": "The founding figure of the Old Boys' Association, who brought together the first generation of Old Jeilanians with a vision of unity and service. Under his leadership, the Association took its first formal steps - laying the foundation for the fellowship that continues to grow today."
-},
-"schoolOverview": {
-  "title": "Our School",
-  "desc": "R/Jeilani Central College is a National School located in Dehigastalawa, Balangoda, in the Ratnapura District of Sri Lanka's Sabaragamuwa Province. The College offers education in the English and Tamil mediums, and is proudly home to students of many faiths and communities studying, learning, and growing together under one roof.",
-  "btn": "Discover Our School"
-},
+    "title": "Our Story",
+    "quote": "Every great institution is carried forward not only by those who lead it, but by those who never truly leave it. The Old Boys' Association of R/Jeilani Central College was born from that very truth.",
+    "p2": "Long after leaving the classrooms of our school in Dehigastalawa, Balangoda, generations of former students continued to return - for a conversation with an old friend, a visit to a beloved teacher, or a chance to relive the memories of their school days. What began as informal gatherings of Old Jeilanians steadily grew into a shared resolve: to organise, to unite, and to give back in a structured and lasting way. That resolve became the Old Boys' Association.",
+    "p3": "Since then, the Association has grown into a vibrant community connecting Old Jeilanians across professions and generations - united by gratitude to the school that shaped them, and by a shared commitment to see it flourish for generations to come."
+  },
+  "founder": {
+    "title": "Our Founder",
+    "name": "[Founder's Name]",
+    "desc": "The founding figure of the Old Boys' Association, who brought together the first generation of Old Jeilanians with a vision of unity and service. Under his leadership, the Association took its first formal steps - laying the foundation for the fellowship that continues to grow today."
+  },
+  "schoolOverview": {
+    "title": "Our School",
+    "desc": "R/Jeilani Central College is a National School located in Dehigastalawa, Balangoda, in the Ratnapura District of Sri Lanka's Sabaragamuwa Province. The College offers education in the English and Tamil mediums, and is proudly home to students of many faiths and communities studying, learning, and growing together under one roof.",
+    "btn": "Discover Our School"
+  },
+  "president": {
+    "title": "Message from the President",
+    "p1": "On behalf of the Old Boys' Association of R/Jeilani Central College, it is my honour to welcome you - whether you are an Old Jeilanian reconnecting with your roots, a current student looking ahead to the fellowship that awaits you, or a friend of our school discovering us for the first time.",
+    "p2": "Our College has always stood for unity across communities and faiths, and that same spirit defines who we are as an Association today. We are not simply an organisation of the past - we are a living, active community shaping the future of our alma mater through scholarships, infrastructure, mentorship, and fellowship.",
+    "p3": "I warmly invite every Old Jeilanian, wherever you may be in the world, to stay connected, get involved, and take pride in the legacy we carry forward together.",
+    "name": "[President's Full Name]",
+    "role": "President, Old Boys' Association - R/Jeilani Central College"
+  },
+  "executive": {
+    "title": "Executive Committee",
+    "desc": "The Association is led by a dedicated team of office bearers and committee members, elected to serve the interests of Old Jeilanians and to guide the Association's activities with transparency and commitment.",
+    "btn": "View Full Committee",
+    "members": [
+      {
+        "name": "[Name]",
+        "role": "Chairman"
+      },
+      {
+        "name": "[Name]",
+        "role": "President I"
+      },
+      {
+        "name": "[Name]",
+        "role": "Secretary I"
+      },
+      {
+        "name": "[Name]",
+        "role": "Treasurer I"
+      }
+    ]
+  },
+  "committeeMessage": {
+    "title": "A Message from the Committee",
+    "p1": "The strength of this Association rests on the dedication of its members and the trust placed in us by every Old Jeilanian. As your Executive Committee, we are committed to transparent leadership, meaningful projects, and building more opportunities for our alumni community to connect, contribute, and grow together.",
+    "p2": "We welcome your ideas, your involvement, and your support as we work hand in hand for the betterment of our school and the brotherhood we all share."
+  },
+  "aboutPage": {
+    "hero": {
+      "breadcrumb": "About",
+      "title": "Who We Are",
+      "subtitle": "A proud fellowship of Old Jeilanians united by gratitude and a shared commitment to give back."
+    },
+    "overview": {
+      "title": "Our Association",
+      "p1": "The Old Boys' Association (OBA) of R/Jeilani Central College is a proud fellowship of alumni who once walked the same corridors, sat in the same classrooms, and shared in the same values of discipline, brotherhood, and excellence at our alma mater in Dehigastalawa, Balangoda.",
+      "p2": "Our College has always stood as a place of unity in diversity — a national school where students of many faiths and communities have studied together in the English and Tamil mediums, guided by a shared commitment to knowledge, respect, and service. That same spirit of unity carries through into our Association today.",
+      "p3": "The OBA brings together Old Jeilanians from every walk of life — professionals, entrepreneurs, educators, and public servants — who remain connected by gratitude to the institution that shaped their formative years, and by a shared responsibility to give back."
+    }
+  },
+  "aboutStory": {
+    "title": "Our Story",
+    "quote": "Every great institution is carried forward not only by those who lead it, but by those who never truly leave it. The Old Boys' Association of R/Jeilani Central College was born from that very truth.",
+    "p2": "Long after leaving the classrooms of our school in Dehigastalawa, Balangoda, generations of former students continued to return — for a conversation with an old friend, a visit to a beloved teacher, or a chance to relive the memories of their school days. What began as informal gatherings of Old Jeilanians steadily grew into a shared resolve: to organise, to unite, and to give back in a structured and lasting way. That resolve became the Old Boys' Association.",
+    "p3": "Since then, the Association has grown into a vibrant community connecting Old Jeilanians across professions and generations — united by gratitude to the school that shaped them, and by a shared commitment to see it flourish for generations to come."
+  },
+  "schoolPage": {
+    "hero": {
+      "breadcrumb": "Our School",
+      "title": "R/Jeilani Central College",
+      "subtitle": "A National School in Dehigastalawa, Balangoda — home to over 1,000 students learning together in the English and Tamil mediums."
+    },
+    "history": {
+      "title": "Founding & Early History",
+      "timeline": [
+        {
+          "year": "1931",
+          "desc": "The school was founded, laying the first foundation stone of what would become a leading national institution in the Balangoda education zone."
+        },
+        {
+          "year": "1934",
+          "desc": "Officially inaugurated by its founder, the late Al-Haj C.L.M. Marikkar, father of the former Labour Minister, the late Al-Haj M.L.M. Aboosally."
+        },
+        {
+          "year": "1942",
+          "desc": "The school was taken over by the Government of Ceylon, beginning a new chapter of growth under state administration."
+        }
+      ]
+    },
+    "growth": {
+      "title": "Growth & Recognition",
+      "overline": "National School Status",
+      "p1": "Over the decades, R/Jeilani Central College built a distinguished record of academic and sporting achievement — consistently ranked among the leading schools in the region for G.C.E. Ordinary Level and Advanced Level results, and celebrated for its cricket and football teams, which have claimed championship honours at both district and provincial level.",
+      "p2": "In recognition of its standards and contribution to national education, the school was elevated to National School status. Today, R/Jeilani Central College is home to over 1,000 students from Grade 1 through to Advanced Level, taught by a dedicated body of educators committed to academic excellence and character development.",
+      "highlight": {
+        "label": "Elevated To",
+        "value": "National School",
+        "desc": "In recognition of its standards and contribution to national education."
+      }
+    }
+  },
 
-"president": {
-  "title": "Message from the President",
-  "p1": "On behalf of the Old Boys' Association of R/Jeilani Central College, it is my honour to welcome you - whether you are an Old Jeilanian reconnecting with your roots, a current student looking ahead to the fellowship that awaits you, or a friend of our school discovering us for the first time.",
-  "p2": "Our College has always stood for unity across communities and faiths, and that same spirit defines who we are as an Association today. We are not simply an organisation of the past - we are a living, active community shaping the future of our alma mater through scholarships, infrastructure, mentorship, and fellowship.",
-  "p3": "I warmly invite every Old Jeilanian, wherever you may be in the world, to stay connected, get involved, and take pride in the legacy we carry forward together.",
-  "name": "[President's Full Name]",
-  "role": "President, Old Boys' Association - R/Jeilani Central College"
-},
-"executive": {
-  "title": "Executive Committee",
-  "desc": "The Association is led by a dedicated team of office bearers and committee members, elected to serve the interests of Old Jeilanians and to guide the Association's activities with transparency and commitment.",
-  "btn": "View Full Committee",
-  "members": [
-    { "name": "[Name]", "role": "Chairman" },
-    { "name": "[Name]", "role": "President I" },
-    { "name": "[Name]", "role": "Secretary I" },
-    { "name": "[Name]", "role": "Treasurer I" }
-  ]
-},
-
-"committeeMessage": {
-  "title": "A Message from the Committee",
-  "p1": "The strength of this Association rests on the dedication of its members and the trust placed in us by every Old Jeilanian. As your Executive Committee, we are committed to transparent leadership, meaningful projects, and building more opportunities for our alumni community to connect, contribute, and grow together.",
-  "p2": "We welcome your ideas, your involvement, and your support as we work hand in hand for the betterment of our school and the brotherhood we all share."
-}
+  "committeePage": {
+    "hero": {
+      "breadcrumb": "Committee",
+      "title": "Executive Committee",
+      "subtitle": "A dedicated team of office bearers and committee members, elected to serve the interests of Old Jeilanians with transparency and commitment."
+    },
+    "intro": {
+      "overline": "Leadership & Governance",
+      "title": "Our Executive Committee",
+      "p1": "The Association is led by a dedicated team of office bearers and committee members, elected to serve the interests of Old Jeilanians and to guide the Association's activities with transparency and commitment.",
+      "p2": "Every member of the Committee volunteers their time and expertise to ensure the Association remains accountable to its members, active in its mission, and true to the legacy of R/Jeilani Central College.",
+      "statLabel": "Elected Officers",
+      "statValue": "50+",
+      "statDesc": "Office bearers and committee members serving the Association this term."
+    },
+    "officers": {
+      "title": "Office Bearers",
+      "overline": "Leadership Team",
+      "featured": "Chairman",
+      "members": [
+        { "name": "Mohamed Azhar", "role": "Chairman" },
+        { "name": "Rizwan Farook", "role": "President I" },
+        { "name": "Niyas Ahamed", "role": "President II" },
+        { "name": "Fazil Mansoor", "role": "Secretary I" },
+        { "name": "Shafeek Rahuman", "role": "Secretary II" },
+        { "name": "Imthiyaz Careem", "role": "Secretary III" },
+        { "name": "Naleem Hameed", "role": "Treasurer I" },
+        { "name": "Aslam Nizam", "role": "Treasurer II" },
+        { "name": "Rauf Zarook", "role": "Treasurer III" },
+        { "name": "Suhail Marikkar", "role": "Treasurer IV" }
+      ]
+    },
+    "committeeMessage": {
+      "title": "A Message from the Committee",
+      "p1": "The strength of this Association rests on the dedication of its members and the trust placed in us by every Old Jeilanian. As your Executive Committee, we are committed to transparent leadership, meaningful projects, and building more opportunities for our alumni community to connect, contribute, and grow together.",
+      "p2": "We welcome your ideas, your involvement, and your support as we work hand in hand for the betterment of our school and the brotherhood we all share."
+    }
+  }
 }
