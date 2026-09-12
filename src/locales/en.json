@@ -140,21 +140,21 @@
     "overview": {
       "title": "Our Association",
       "p1": "The Old Boys' Association (OBA) of R/Jeilani Central College is a proud fellowship of alumni who once walked the same corridors, sat in the same classrooms, and shared in the same values of discipline, brotherhood, and excellence at our alma mater in Dehigastalawa, Balangoda.",
-      "p2": "Our College has always stood as a place of unity in diversity — a national school where students of many faiths and communities have studied together in the English and Tamil mediums, guided by a shared commitment to knowledge, respect, and service. That same spirit of unity carries through into our Association today.",
-      "p3": "The OBA brings together Old Jeilanians from every walk of life — professionals, entrepreneurs, educators, and public servants — who remain connected by gratitude to the institution that shaped their formative years, and by a shared responsibility to give back."
+      "p2": "Our College has always stood as a place of unity in diversity - a national school where students of many faiths and communities have studied together in the English and Tamil mediums, guided by a shared commitment to knowledge, respect, and service. That same spirit of unity carries through into our Association today.",
+      "p3": "The OBA brings together Old Jeilanians from every walk of life - professionals, entrepreneurs, educators, and public servants - who remain connected by gratitude to the institution that shaped their formative years, and by a shared responsibility to give back."
     }
   },
   "aboutStory": {
     "title": "Our Story",
     "quote": "Every great institution is carried forward not only by those who lead it, but by those who never truly leave it. The Old Boys' Association of R/Jeilani Central College was born from that very truth.",
-    "p2": "Long after leaving the classrooms of our school in Dehigastalawa, Balangoda, generations of former students continued to return — for a conversation with an old friend, a visit to a beloved teacher, or a chance to relive the memories of their school days. What began as informal gatherings of Old Jeilanians steadily grew into a shared resolve: to organise, to unite, and to give back in a structured and lasting way. That resolve became the Old Boys' Association.",
-    "p3": "Since then, the Association has grown into a vibrant community connecting Old Jeilanians across professions and generations — united by gratitude to the school that shaped them, and by a shared commitment to see it flourish for generations to come."
+    "p2": "Long after leaving the classrooms of our school in Dehigastalawa, Balangoda, generations of former students continued to return - for a conversation with an old friend, a visit to a beloved teacher, or a chance to relive the memories of their school days. What began as informal gatherings of Old Jeilanians steadily grew into a shared resolve: to organise, to unite, and to give back in a structured and lasting way. That resolve became the Old Boys' Association.",
+    "p3": "Since then, the Association has grown into a vibrant community connecting Old Jeilanians across professions and generations - united by gratitude to the school that shaped them, and by a shared commitment to see it flourish for generations to come."
   },
   "schoolPage": {
     "hero": {
       "breadcrumb": "Our School",
       "title": "R/Jeilani Central College",
-      "subtitle": "A National School in Dehigastalawa, Balangoda — home to over 1,000 students learning together in the English and Tamil mediums."
+      "subtitle": "A National School in Dehigastalawa, Balangoda - home to over 1,000 students learning together in the English and Tamil mediums."
     },
     "history": {
       "title": "Founding & Early History",
@@ -176,7 +176,7 @@
     "growth": {
       "title": "Growth & Recognition",
       "overline": "National School Status",
-      "p1": "Over the decades, R/Jeilani Central College built a distinguished record of academic and sporting achievement — consistently ranked among the leading schools in the region for G.C.E. Ordinary Level and Advanced Level results, and celebrated for its cricket and football teams, which have claimed championship honours at both district and provincial level.",
+      "p1": "Over the decades, R/Jeilani Central College built a distinguished record of academic and sporting achievement - consistently ranked among the leading schools in the region for G.C.E. Ordinary Level and Advanced Level results, and celebrated for its cricket and football teams, which have claimed championship honours at both district and provincial level.",
       "p2": "In recognition of its standards and contribution to national education, the school was elevated to National School status. Today, R/Jeilani Central College is home to over 1,000 students from Grade 1 through to Advanced Level, taught by a dedicated body of educators committed to academic excellence and character development.",
       "highlight": {
         "label": "Elevated To",
@@ -228,7 +228,7 @@
     "hero": {
       "breadcrumb": "Projects",
       "title": "Our Projects",
-      "subtitle": "Guided by our mission to give back — meaningful initiatives that directly benefit R/Jeilani Central College and its wider community."
+      "subtitle": "Guided by our mission to give back - meaningful initiatives that directly benefit R/Jeilani Central College and its wider community."
     },
     "categories": {
       "title": "Typical Project Categories",
@@ -237,7 +237,7 @@
         {
           "number": "01",
           "title": "Infrastructure Development",
-          "desc": "Classrooms, laboratories, libraries, and sports facilities — upgrading the physical foundation of the school for generations to come."
+          "desc": "Classrooms, laboratories, libraries, and sports facilities - upgrading the physical foundation of the school for generations to come."
         },
         {
           "number": "02",
@@ -265,16 +265,16 @@
       "impactLabel": "Impact",
       "featured": {
         "status": "Ongoing",
-        "year": "2024 — Present",
+        "year": "2024 - Present",
         "title": "Science Laboratory Modernisation",
-        "desc": "A comprehensive upgrade of the school's science laboratories — replacing outdated equipment, installing new workbenches, and providing modern apparatus for Physics, Chemistry, and Biology. This project directly supports students preparing for G.C.E. Advanced Level examinations in the science stream.",
+        "desc": "A comprehensive upgrade of the school's science laboratories - replacing outdated equipment, installing new workbenches, and providing modern apparatus for Physics, Chemistry, and Biology. This project directly supports students preparing for G.C.E. Advanced Level examinations in the science stream.",
         "impact": "Serving 400+ A/L Science students annually"
       },
       "items": [
         {
           "status": "Completed",
           "year": "2023",
-          "title": "Classroom Renovation — Block A",
+          "title": "Classroom Renovation - Block A",
           "desc": "Full renovation of 8 classrooms including new roofing, flooring, seating, and smart-board installation.",
           "impact": "Benefiting 320 students"
         },
@@ -301,12 +301,116 @@
         },
         {
           "status": "Ongoing",
-          "year": "2024 — Present",
+          "year": "2024 - Present",
           "title": "Computer Lab & Digital Literacy",
           "desc": "Establishing a 40-seat computer lab with modern hardware and an after-school digital literacy programme for students in Grades 9–13.",
           "impact": "40 workstations + 200 students trained"
         }
       ]
+    }
+  },
+
+  "membershipPage": {
+    "hero": {
+      "breadcrumb": "Membership",
+      "title": "Join the Fellowship",
+      "subtitle": "Membership in the Old Boys' Association is open to all former students of R/Jeilani Central College - a renewal of the bond you share with your alma mater and your fellow Old Jeilanians."
+    },
+    "intro": {
+      "overline": "Open to All Alumni",
+      "title": "Renew the Bond",
+      "p1": "Membership in the Old Boys' Association is open to all former students of R/Jeilani Central College. Joining the Association is more than a formality - it is a renewal of the bond you share with your alma mater and your fellow Old Jeilanians.",
+      "p2": "Whether you graduated decades ago or in recent years, whether you live in Balangoda or across the world - there is a place for you in this fellowship. Every member strengthens the Association's ability to serve our school and the generations that follow.",
+      "stats": [
+        { "value": "Open", "label": "To All Alumni" },
+        { "value": "Global", "label": "Member Network" },
+        { "value": "Lifetime", "label": "Old Jeilanian Bond" }
+      ]
+    },
+    "register": {
+      "overline": "Application Process",
+      "title": "How to Register",
+      "subtitle": "Four simple steps to join the fellowship of Old Jeilanians.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Complete the Application Form",
+          "desc": "Complete the Online or Paper Membership Application Form."
+        },
+        {
+          "number": "02",
+          "title": "Provide Proof of Enrolment",
+          "desc": "Provide proof of prior enrolment at R/Jeilani Central College (e.g., school leaving certificate, class photograph, or verification by a current member)."
+        },
+        {
+          "number": "03",
+          "title": "Pay the Registration Fee",
+          "desc": "Pay the applicable one-time registration fee and/or annual subscription (details available from the Treasurer)."
+        },
+        {
+          "number": "04",
+          "title": "Await Committee Approval",
+          "desc": "Applications are reviewed and approved by the Executive Committee, and new members are formally welcomed at the next general meeting or event."
+        }
+      ]
+    },
+    "benefits": {
+      "overline": "Why Join",
+      "title": "Membership Benefits",
+      "subtitle": "Joining the Association is more than a formality - it opens the door to a lifelong network of fellowship, opportunity, and shared purpose.",
+      "items": [
+        {
+          "icon": "invitation",
+          "title": "Exclusive Invitations",
+          "desc": "Invitations to reunions, annual dinners, and Old Jeilanian networking events."
+        },
+        {
+          "icon": "newsletter",
+          "title": "Newsletter Access",
+          "desc": "Access to the Association's newsletter and members-only updates."
+        },
+        {
+          "icon": "vote",
+          "title": "Voting Rights",
+          "desc": "Eligibility to vote and stand for office in Association elections."
+        },
+        {
+          "icon": "mentor",
+          "title": "Mentorship Opportunities",
+          "desc": "Opportunities to mentor current students and participate in Association projects."
+        },
+        {
+          "icon": "network",
+          "title": "Professional Network",
+          "desc": "Access to a growing professional and alumni network across generations and geographies."
+        },
+        {
+          "icon": "recognition",
+          "title": "Lifetime Recognition",
+          "desc": "Recognition on official Association records as a lifetime Old Jeilanian."
+        }
+      ]
+    },
+
+    "conduct": {
+      "overline": "Our Standards",
+      "title": "Membership Code of Conduct",
+      "subtitle": "All members of the Association are expected to uphold the following standards:",
+      "items": [
+        "Act with honesty, integrity, and mutual respect toward fellow members and the wider school community.",
+        "Uphold and safeguard the good name and reputation of R/Jeilani Central College and the Association at all times.",
+        "Participate constructively in Association activities, meetings, and decision-making processes.",
+        "Fulfil membership obligations, including timely payment of subscriptions where applicable.",
+        "Refrain from conduct - including on social media - that brings disrepute to the school or the Association.",
+        "Respect the diversity of faith, community, and background that has always defined our school family."
+      ]
+    },
+    "cta": {
+      "overline": "Ready to Join?",
+      "title": "Become an Old Jeilanian",
+      "desc": "Every member strengthens the fellowship. Whether you are reconnecting after decades or joining for the first time - your place is here.",
+      "btn": "Begin Registration",
+      "btnSecondary": "Contact the Treasurer"
     }
   }
 }
