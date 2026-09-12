@@ -223,5 +223,90 @@
       "p1": "The strength of this Association rests on the dedication of its members and the trust placed in us by every Old Jeilanian. As your Executive Committee, we are committed to transparent leadership, meaningful projects, and building more opportunities for our alumni community to connect, contribute, and grow together.",
       "p2": "We welcome your ideas, your involvement, and your support as we work hand in hand for the betterment of our school and the brotherhood we all share."
     }
+  },
+  "projectsPage": {
+    "hero": {
+      "breadcrumb": "Projects",
+      "title": "Our Projects",
+      "subtitle": "Guided by our mission to give back — meaningful initiatives that directly benefit R/Jeilani Central College and its wider community."
+    },
+    "categories": {
+      "title": "Typical Project Categories",
+      "overline": "Areas of Impact",
+      "items": [
+        {
+          "number": "01",
+          "title": "Infrastructure Development",
+          "desc": "Classrooms, laboratories, libraries, and sports facilities — upgrading the physical foundation of the school for generations to come."
+        },
+        {
+          "number": "02",
+          "title": "Scholarships & Educational Support",
+          "desc": "Financial assistance for high-achieving students and those from financially disadvantaged backgrounds."
+        },
+        {
+          "number": "03",
+          "title": "Sports & Extracurricular Development",
+          "desc": "Equipment, coaching, and tournament sponsorship to nurture talent and sportsmanship beyond the classroom."
+        },
+        {
+          "number": "04",
+          "title": "Community & Welfare Initiatives",
+          "desc": "Programmes supporting the wider Dehigastalawa community, extending the OBA's impact beyond the school gates."
+        }
+      ]
+    },
+    "list": {
+      "title": "Ongoing & Completed Projects",
+      "overline": "Our Work in Action",
+      "featuredLabel": "Featured Project",
+      "statusOngoing": "Ongoing",
+      "statusCompleted": "Completed",
+      "impactLabel": "Impact",
+      "featured": {
+        "status": "Ongoing",
+        "year": "2024 — Present",
+        "title": "Science Laboratory Modernisation",
+        "desc": "A comprehensive upgrade of the school's science laboratories — replacing outdated equipment, installing new workbenches, and providing modern apparatus for Physics, Chemistry, and Biology. This project directly supports students preparing for G.C.E. Advanced Level examinations in the science stream.",
+        "impact": "Serving 400+ A/L Science students annually"
+      },
+      "items": [
+        {
+          "status": "Completed",
+          "year": "2023",
+          "title": "Classroom Renovation — Block A",
+          "desc": "Full renovation of 8 classrooms including new roofing, flooring, seating, and smart-board installation.",
+          "impact": "Benefiting 320 students"
+        },
+        {
+          "status": "Completed",
+          "year": "2022",
+          "title": "Annual Scholarship Endowment",
+          "desc": "Establishment of a permanent scholarship fund awarding 25 scholarships per year to high-achieving students from financially disadvantaged families.",
+          "impact": "25 scholarships awarded annually"
+        },
+        {
+          "status": "Ongoing",
+          "year": "2024",
+          "title": "Library Expansion Project",
+          "desc": "Expanding the school library with 2,000 new titles, digital cataloguing, and a dedicated reference and reading wing.",
+          "impact": "1,000+ students with library access"
+        },
+        {
+          "status": "Completed",
+          "year": "2021",
+          "title": "Cricket Ground Upgrade",
+          "desc": "Resurfacing of the main cricket pitch, installation of practice nets, and new pavilion seating for the school's championship cricket teams.",
+          "impact": "Supporting 3 school cricket teams"
+        },
+        {
+          "status": "Ongoing",
+          "year": "2024 — Present",
+          "title": "Computer Lab & Digital Literacy",
+          "desc": "Establishing a 40-seat computer lab with modern hardware and an after-school digital literacy programme for students in Grades 9–13.",
+          "impact": "40 workstations + 200 students trained"
+        }
+      ]
+    }
   }
 }
