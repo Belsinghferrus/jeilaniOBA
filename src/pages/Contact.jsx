@@ -1,10 +1,13 @@
 import React from 'react'
+import ContactHero from '../sections/Contact/ContactHero'
+import ContactIntro from '../sections/Contact/ContactIntro'
 
 const Contact = () => {
   return (
-    <div>
-      Contact
-    </div>
+   <>
+     <ContactHero />
+     <ContactIntro />
+   </>
   )
 }
 

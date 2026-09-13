@@ -453,7 +453,7 @@
     "hero": {
       "breadcrumb": "Events",
       "title": "Our Events",
-      "subtitle": "From annual reunions to fundraising dinners and sports days — where the Old Jeilanian spirit truly comes alive."
+      "subtitle": "From annual reunions to fundraising dinners and sports days - where the Old Jeilanian spirit truly comes alive."
     },
     "signature": {
       "overline": "Traditions We Keep",
@@ -470,7 +470,7 @@
           "number": "02",
           "title": "Old Jeilanians' Reunion",
           "short": "Reunion",
-          "desc": "A warm get-together for Old Jeilanians across all generations — reconnecting with classmates, teachers, and friends from every era of the school's history."
+          "desc": "A warm get-together for Old Jeilanians across all generations - reconnecting with classmates, teachers, and friends from every era of the school's history."
         },
         {
           "number": "03",
@@ -482,7 +482,7 @@
           "number": "04",
           "title": "Old Boys' Sports Meet",
           "short": "Sports Meet",
-          "desc": "The legendary cricket encounter and friendly sports matches between past and present teams — celebrating sportsmanship, camaraderie, and school pride."
+          "desc": "The legendary cricket encounter and friendly sports matches between past and present teams - celebrating sportsmanship, camaraderie, and school pride."
         }
       ]
     },
@@ -490,12 +490,12 @@
       "overline": "The Spirit of Fellowship",
       "title": "Where Memories Come Alive",
       "p1": "From annual reunions to fundraising dinners and sports days, our events are where the Old Jeilanian spirit truly comes alive. They are an opportunity to reconnect with old friends, meet new ones, and celebrate the legacy we all share.",
-      "p2": "Every gathering — whether a formal AGM or an informal cricket match — strengthens the bonds that tie generations of Old Jeilanians together. These moments remind us that the fellowship extends far beyond the school gates."
+      "p2": "Every gathering - whether a formal AGM or an informal cricket match - strengthens the bonds that tie generations of Old Jeilanians together. These moments remind us that the fellowship extends far beyond the school gates."
     },
     "upcoming": {
       "overline": "Save the Date",
       "title": "Upcoming Events",
-      "subtitle": "Mark your calendar — reconnect with fellow Old Jeilanians at our next gatherings.",
+      "subtitle": "Mark your calendar - reconnect with fellow Old Jeilanians at our next gatherings.",
       "featuredLabel": "Next Up",
       "registerBtn": "Register Interest",
       "featured": {
@@ -505,7 +505,7 @@
         "title": "Annual Fundraising Dinner",
         "desc": "An elegant evening of dining and giving in support of the Association's scholarship fund. Join fellow Old Jeilanians for a memorable night of fellowship, live entertainment, and a shared commitment to the next generation.",
         "location": "Grand Ballroom, Balangoda",
-        "time": "7:00 PM — 11:00 PM"
+        "time": "7:00 PM - 11:00 PM"
       },
       "items": [
         {
@@ -524,7 +524,7 @@
           "title": "Year-End Family Picnic",
           "desc": "A relaxed outdoor gathering for Old Jeilanians and their families to close the year together.",
           "location": "Balangoda Lake Gardens",
-          "time": "10:00 AM — 4:00 PM"
+          "time": "10:00 AM - 4:00 PM"
         },
         {
           "day": "15",
@@ -569,7 +569,7 @@
     "hero": {
       "breadcrumb": "Newsletter",
       "title": "Stay Connected",
-      "subtitle": "The latest news, achievements, project updates, and stories from the Old Jeilanian community — delivered directly to your inbox."
+      "subtitle": "The latest news, achievements, project updates, and stories from the Old Jeilanian community - delivered directly to your inbox."
     },
     "intro": {
       "overline": "Stay in the Loop",
@@ -578,32 +578,55 @@
       "quote": "Never miss a milestone, a reunion, or a story worth sharing."
     },
     "actions": {
-  "overline": "How to Engage",
-  "title": "Get Involved with the Newsletter",
-  "subtitle": "Three simple ways to stay connected with the Old Jeilanian community.",
-  "items": [
-    {
-      "number": "01",
-      "icon": "subscribe",
-      "title": "Subscribe",
-      "desc": "Subscribe to receive our newsletter directly by email.",
-      "cta": "Subscribe Now"
-    },
-    {
-      "number": "02",
-      "icon": "archive",
-      "title": "Browse the Archive",
-      "desc": "Browse past issues in our newsletter archive.",
-      "cta": "View Archive"
-    },
-    {
-      "number": "03",
-      "icon": "contribute",
-      "title": "Contribute a Story",
-      "desc": "Contribute your own stories, achievements, or memories for a future issue.",
-      "cta": "Submit a Story"
+      "overline": "How to Engage",
+      "title": "Get Involved with the Newsletter",
+      "subtitle": "Three simple ways to stay connected with the Old Jeilanian community.",
+      "items": [
+        {
+          "number": "01",
+          "icon": "subscribe",
+          "title": "Subscribe",
+          "desc": "Subscribe to receive our newsletter directly by email.",
+          "cta": "Subscribe Now"
+        },
+        {
+          "number": "02",
+          "icon": "archive",
+          "title": "Browse the Archive",
+          "desc": "Browse past issues in our newsletter archive.",
+          "cta": "View Archive"
+        },
+        {
+          "number": "03",
+          "icon": "contribute",
+          "title": "Contribute a Story",
+          "desc": "Contribute your own stories, achievements, or memories for a future issue.",
+          "cta": "Submit a Story"
+        }
+      ]
     }
-  ]
-}
+  },
+  "contactPage": {
+    "hero": {
+      "breadcrumb": "Contact",
+      "title": "Get in Touch",
+      "subtitle": "Whether you are an Old Jeilanian looking to reconnect, a prospective member, or a well-wisher of our school - we would love to hear from you."
+    },
+    "intro": {
+      "overline": "We're Here to Help",
+      "title": "Reach Out to the Association",
+      "p1": "We would love to hear from you - whether you're an Old Jeilanian looking to reconnect, a prospective member, or a well-wisher of our school.",
+      "p2": "For membership enquiries, project contributions, event information, or simply to share a memory - the Association is only a message away.",
+      "info": {
+        "addressLabel": "Association Address",
+        "addressValue": "Dehigastalawa, Balangoda, Sri Lanka",
+        "emailLabel": "Email",
+        "emailValue": "email@jeilanioba.lk",
+        "phoneLabel": "Phone",
+        "phoneValue": "+94 XX XXX XXXX",
+        "hoursLabel": "Office Hours",
+        "hoursValue": "Weekdays · 9:00 AM - 5:00 PM"
+      }
+    }
   }
 }

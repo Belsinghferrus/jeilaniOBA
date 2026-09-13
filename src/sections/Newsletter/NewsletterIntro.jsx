@@ -39,7 +39,7 @@ const NewsletterIntro = () => {
 
         {/* Closing Italic Quote */}
         <p className="text-lg md:text-xl italic text-[#660033]/70 font-light max-w-2xl mx-auto">
-          — {intro.quote}
+          - {intro.quote}
         </p>
 
       </div>

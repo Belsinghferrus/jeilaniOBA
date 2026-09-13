@@ -1,7 +1,7 @@
 import { useLanguage } from '../../hooks/useLanguage';
 import { Link, useParams } from 'react-router-dom';
-import bg from "../../assets/images/x7.jpg";
-const NewsletterHero = () => {
+
+const ContactHero = () => {
   const { t } = useLanguage();
   const { lang } = useParams();
 
@@ -10,8 +10,8 @@ const NewsletterHero = () => {
       
       {/* Background Image */}
       <img 
-        src={bg}
-        alt="Newsletter" 
+        src="/images/hero-contact.jpg" 
+        alt="Contact Us" 
         className="absolute top-0 left-0 w-full h-full object-cover"
         onError={(e) => { e.target.style.display = 'none'; }}
       />
@@ -28,18 +28,18 @@ const NewsletterHero = () => {
           <nav className="flex items-center space-x-2 text-xs md:text-sm text-white/80 mb-6 tracking-wider uppercase font-medium">
             <Link to={`/${lang}`} className="hover:text-[#D4AF37] transition-colors">Home</Link>
             <span>/</span>
-            <span className="text-[#D4AF37] font-semibold">{t.newsletterPage.hero.breadcrumb}</span>
+            <span className="text-[#D4AF37] font-semibold">{t.contactPage.hero.breadcrumb}</span>
           </nav>
 
           {/* Title */}
           <div className="w-16 h-1 bg-[#D4AF37] mb-6"></div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 drop-shadow-md">
-            {t.newsletterPage.hero.title}
+            {t.contactPage.hero.title}
           </h1>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed max-w-2xl drop-shadow-md">
-            {t.newsletterPage.hero.subtitle}
+            {t.contactPage.hero.subtitle}
           </p>
 
         </div>
@@ -49,4 +49,4 @@ const NewsletterHero = () => {
   );
 };
 
-export default NewsletterHero;
+export default ContactHero;

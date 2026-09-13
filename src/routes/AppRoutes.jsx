@@ -26,7 +26,6 @@ const AppRoutes = () => {
                 <Route path="membership" element={<Membership />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="events" element={<Event />} />
-
                 <Route path="news" element={<NewsLetter />} />
 
             </Route>
