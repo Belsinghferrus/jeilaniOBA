@@ -185,7 +185,6 @@
       }
     }
   },
-
   "committeePage": {
     "hero": {
       "breadcrumb": "Committee",
@@ -206,16 +205,46 @@
       "overline": "Leadership Team",
       "featured": "Chairman",
       "members": [
-        { "name": "Mohamed Azhar", "role": "Chairman" },
-        { "name": "Rizwan Farook", "role": "President I" },
-        { "name": "Niyas Ahamed", "role": "President II" },
-        { "name": "Fazil Mansoor", "role": "Secretary I" },
-        { "name": "Shafeek Rahuman", "role": "Secretary II" },
-        { "name": "Imthiyaz Careem", "role": "Secretary III" },
-        { "name": "Naleem Hameed", "role": "Treasurer I" },
-        { "name": "Aslam Nizam", "role": "Treasurer II" },
-        { "name": "Rauf Zarook", "role": "Treasurer III" },
-        { "name": "Suhail Marikkar", "role": "Treasurer IV" }
+        {
+          "name": "Mohamed Azhar",
+          "role": "Chairman"
+        },
+        {
+          "name": "Rizwan Farook",
+          "role": "President I"
+        },
+        {
+          "name": "Niyas Ahamed",
+          "role": "President II"
+        },
+        {
+          "name": "Fazil Mansoor",
+          "role": "Secretary I"
+        },
+        {
+          "name": "Shafeek Rahuman",
+          "role": "Secretary II"
+        },
+        {
+          "name": "Imthiyaz Careem",
+          "role": "Secretary III"
+        },
+        {
+          "name": "Naleem Hameed",
+          "role": "Treasurer I"
+        },
+        {
+          "name": "Aslam Nizam",
+          "role": "Treasurer II"
+        },
+        {
+          "name": "Rauf Zarook",
+          "role": "Treasurer III"
+        },
+        {
+          "name": "Suhail Marikkar",
+          "role": "Treasurer IV"
+        }
       ]
     },
     "committeeMessage": {
@@ -309,7 +338,6 @@
       ]
     }
   },
-
   "membershipPage": {
     "hero": {
       "breadcrumb": "Membership",
@@ -322,9 +350,18 @@
       "p1": "Membership in the Old Boys' Association is open to all former students of R/Jeilani Central College. Joining the Association is more than a formality - it is a renewal of the bond you share with your alma mater and your fellow Old Jeilanians.",
       "p2": "Whether you graduated decades ago or in recent years, whether you live in Balangoda or across the world - there is a place for you in this fellowship. Every member strengthens the Association's ability to serve our school and the generations that follow.",
       "stats": [
-        { "value": "Open", "label": "To All Alumni" },
-        { "value": "Global", "label": "Member Network" },
-        { "value": "Lifetime", "label": "Old Jeilanian Bond" }
+        {
+          "value": "Open",
+          "label": "To All Alumni"
+        },
+        {
+          "value": "Global",
+          "label": "Member Network"
+        },
+        {
+          "value": "Lifetime",
+          "label": "Old Jeilanian Bond"
+        }
       ]
     },
     "register": {
@@ -391,7 +428,6 @@
         }
       ]
     },
-
     "conduct": {
       "overline": "Our Standards",
       "title": "Membership Code of Conduct",
@@ -412,5 +448,162 @@
       "btn": "Begin Registration",
       "btnSecondary": "Contact the Treasurer"
     }
+  },
+  "eventsPage": {
+    "hero": {
+      "breadcrumb": "Events",
+      "title": "Our Events",
+      "subtitle": "From annual reunions to fundraising dinners and sports days — where the Old Jeilanian spirit truly comes alive."
+    },
+    "signature": {
+      "overline": "Traditions We Keep",
+      "title": "Signature Annual Events",
+      "intro": "From annual reunions to fundraising dinners and sports days, our events are where the Old Jeilanian spirit truly comes alive. They are an opportunity to reconnect with old friends, meet new ones, and celebrate the legacy we all share.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Annual General Meeting",
+          "short": "AGM",
+          "desc": "The Association's formal annual gathering where members review the year's progress, elect office bearers, and shape the future direction of the fellowship."
+        },
+        {
+          "number": "02",
+          "title": "Old Jeilanians' Reunion",
+          "short": "Reunion",
+          "desc": "A warm get-together for Old Jeilanians across all generations — reconnecting with classmates, teachers, and friends from every era of the school's history."
+        },
+        {
+          "number": "03",
+          "title": "Annual Awards & Recognition Night",
+          "short": "Awards Night",
+          "desc": "An evening honouring outstanding Old Jeilanians for their achievements, service, and contributions to the school and the wider community."
+        },
+        {
+          "number": "04",
+          "title": "Old Boys' Sports Meet",
+          "short": "Sports Meet",
+          "desc": "The legendary cricket encounter and friendly sports matches between past and present teams — celebrating sportsmanship, camaraderie, and school pride."
+        }
+      ]
+    },
+    "about": {
+      "overline": "The Spirit of Fellowship",
+      "title": "Where Memories Come Alive",
+      "p1": "From annual reunions to fundraising dinners and sports days, our events are where the Old Jeilanian spirit truly comes alive. They are an opportunity to reconnect with old friends, meet new ones, and celebrate the legacy we all share.",
+      "p2": "Every gathering — whether a formal AGM or an informal cricket match — strengthens the bonds that tie generations of Old Jeilanians together. These moments remind us that the fellowship extends far beyond the school gates."
+    },
+    "upcoming": {
+      "overline": "Save the Date",
+      "title": "Upcoming Events",
+      "subtitle": "Mark your calendar — reconnect with fellow Old Jeilanians at our next gatherings.",
+      "featuredLabel": "Next Up",
+      "registerBtn": "Register Interest",
+      "featured": {
+        "day": "05",
+        "month": "Oct",
+        "year": "2026",
+        "title": "Annual Fundraising Dinner",
+        "desc": "An elegant evening of dining and giving in support of the Association's scholarship fund. Join fellow Old Jeilanians for a memorable night of fellowship, live entertainment, and a shared commitment to the next generation.",
+        "location": "Grand Ballroom, Balangoda",
+        "time": "7:00 PM — 11:00 PM"
+      },
+      "items": [
+        {
+          "day": "18",
+          "month": "Oct",
+          "year": "2026",
+          "title": "Overseas Chapter Meetup",
+          "desc": "Gathering of Old Jeilanians based in the Middle East and Europe.",
+          "location": "Dubai, UAE",
+          "time": "7:00 PM"
+        },
+        {
+          "day": "20",
+          "month": "Dec",
+          "year": "2026",
+          "title": "Year-End Family Picnic",
+          "desc": "A relaxed outdoor gathering for Old Jeilanians and their families to close the year together.",
+          "location": "Balangoda Lake Gardens",
+          "time": "10:00 AM — 4:00 PM"
+        },
+        {
+          "day": "15",
+          "month": "Jan",
+          "year": "2027",
+          "title": "New Year Fellowship Breakfast",
+          "desc": "A warm morning gathering to welcome the new year with fellow Old Jeilanians.",
+          "location": "College Hall",
+          "time": "8:00 AM"
+        },
+        {
+          "day": "08",
+          "month": "Mar",
+          "year": "2027",
+          "title": "Old Boys' Cricket Encounter",
+          "desc": "The annual friendly cricket match between past and present teams.",
+          "location": "College Grounds",
+          "time": "9:00 AM"
+        },
+        {
+          "day": "22",
+          "month": "Apr",
+          "year": "2027",
+          "title": "Scholarship Awards Ceremony",
+          "desc": "Presentation of annual scholarships to high-achieving students.",
+          "location": "Main Auditorium",
+          "time": "10:00 AM"
+        },
+        {
+          "day": "12",
+          "month": "Aug",
+          "year": "2027",
+          "title": "Foundation Stone Anniversary",
+          "desc": "Commemoration of the school's founding with a special assembly and campus walk.",
+          "location": "College Premises",
+          "time": "8:30 AM"
+        }
+      ]
+    }
+  },
+  "newsletterPage": {
+    "hero": {
+      "breadcrumb": "Newsletter",
+      "title": "Stay Connected",
+      "subtitle": "The latest news, achievements, project updates, and stories from the Old Jeilanian community — delivered directly to your inbox."
+    },
+    "intro": {
+      "overline": "Stay in the Loop",
+      "title": "Your Connection to the Community",
+      "p1": "Stay connected with the Association through our newsletter, bringing you the latest news, achievements, project updates, and stories from the Old Jeilanian community.",
+      "quote": "Never miss a milestone, a reunion, or a story worth sharing."
+    },
+    "actions": {
+  "overline": "How to Engage",
+  "title": "Get Involved with the Newsletter",
+  "subtitle": "Three simple ways to stay connected with the Old Jeilanian community.",
+  "items": [
+    {
+      "number": "01",
+      "icon": "subscribe",
+      "title": "Subscribe",
+      "desc": "Subscribe to receive our newsletter directly by email.",
+      "cta": "Subscribe Now"
+    },
+    {
+      "number": "02",
+      "icon": "archive",
+      "title": "Browse the Archive",
+      "desc": "Browse past issues in our newsletter archive.",
+      "cta": "View Archive"
+    },
+    {
+      "number": "03",
+      "icon": "contribute",
+      "title": "Contribute a Story",
+      "desc": "Contribute your own stories, achievements, or memories for a future issue.",
+      "cta": "Submit a Story"
+    }
+  ]
+}
   }
 }
