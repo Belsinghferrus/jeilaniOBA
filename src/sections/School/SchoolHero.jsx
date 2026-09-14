@@ -11,7 +11,7 @@ const SchoolHero = () => {
       {/* Background Image */}
       <img 
         src={school}
-        alt="R/Jeilani Central College" 
+        alt="Jeilani OBA Central College" 
         className="absolute top-0 left-0 w-full h-full object-cover"
         onError={(e) => { e.target.style.display = 'none'; }}
       />

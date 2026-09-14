@@ -47,15 +47,15 @@ const Navbar = () => {
   const topLinks = [
     { name: t.nav.news || 'Newsroom', path: 'news' },
     { name: t.nav.events || 'Events', path: 'events' },
-    { name: t.nav.careers || 'Careers', path: 'careers' },
+    // { name: t.nav.careers || 'Careers', path: 'careers' },
     { name: t.nav.contact || 'Contact us', path: 'contact' },
   ];
 
   const mainLinks = [
-    { name: t.nav.about || 'About', path: 'about', hasDropdown: true },
-    { name: t.nav.school || 'Our School', path: 'school', hasDropdown: true },
+    { name: t.nav.about || 'About', path: 'about', hasDropdown: false },
+    { name: t.nav.school || 'Our School', path: 'school', hasDropdown: false },
     { name: t.nav.committee || 'Committee', path: 'committee', hasDropdown: false },
-    { name: t.nav.projects || 'Projects', path: 'projects', hasDropdown: true },
+    { name: t.nav.projects || 'Projects', path: 'projects', hasDropdown: false },
     { name: t.nav.membership || 'Membership', path: 'membership', hasDropdown: false },
   ];
 
@@ -76,7 +76,7 @@ const Navbar = () => {
           {/* White Logo (Transparent State) */}
           <img 
             src={logowhite}
-            alt="R/Jeilani OBA" 
+            alt="Jeilani OBA OBA" 
             className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
               isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
             }`}
@@ -84,7 +84,7 @@ const Navbar = () => {
           {/* Maroon Logo (Scrolled State) */}
           <img 
             src={logomaroon}
-            alt="R/Jeilani OBA" 
+            alt="Jeilani OBA OBA" 
             className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
               isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
             }`}
@@ -128,7 +128,7 @@ const Navbar = () => {
               {/* White Logo (Mobile Transparent) */}
               <img 
                 src={logowhite}
-                alt="R/Jeilani OBA" 
+                alt="Jeilani OBA OBA" 
                 className={`h-9 w-auto transition-opacity duration-300 ${
                   isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
                 }`}
@@ -136,7 +136,7 @@ const Navbar = () => {
               {/* Maroon Logo (Mobile Scrolled) */}
               <img 
                 src={logomaroon}
-                alt="R/Jeilani OBA" 
+                alt="Jeilani OBA OBA" 
                 className={`h-9 w-auto transition-opacity duration-300 ${
                   isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
                 }`}

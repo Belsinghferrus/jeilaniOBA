@@ -24,15 +24,17 @@ const Footer = () => {
           {/* Column 1: Brand, Socials & Subscribe */}
           <div className="flex flex-col items-start">
             <h3 className="text-3xl font-bold text-maroon mb-6 tracking-tight">
-              R/Jeilani<br />OBA
+              Jeilani OBA<br />OBA
             </h3>
             
             {/* Social Icons */}
-            <div className="flex space-x-4 mb-8 text-gray-600">
+            {/* <div className="flex space-x-4 mb-8 text-gray-600">
               <a href="#" className="hover:text-maroon transition-colors"><LinkedInIcon /></a>
               <a href="#" className="hover:text-maroon transition-colors"><XIcon /></a>
               <a href="#" className="hover:text-maroon transition-colors"><FacebookIcon /></a>
-            </div>
+              <a href="#" className="hover:text-maroon transition-colors"><FacebookIcon /></a>
+
+            </div> */}
 
             {/* Subscribe Button */}
             <button className="bg-maroon text-white text-sm font-semibold px-6 py-3 hover:bg-maroon-dark transition-colors duration-300 w-full md:w-auto text-center">
@@ -77,17 +79,18 @@ const Footer = () => {
           <div>
             <h4 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-6">Social</h4>
             <ul className="space-y-3 text-sm text-gray-700">
-              <li><a href="#" className="hover:text-maroon transition-colors">Facebook</a></li>
-              <li><a href="#" className="hover:text-maroon transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-maroon transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-maroon transition-colors">YouTube</a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61594431203153" className="hover:text-maroon transition-colors">Facebook</a></li>
+              <li><a href="https://www.instagram.com/jeilanioba/" className="hover:text-maroon transition-colors">Instagram</a></li>
+              <li><a href="https://www.youtube.com/@JeilaniOBA" className="hover:text-maroon transition-colors">YouTube</a></li>
+              <li><a href="https://www.tiktok.com/@jeilanioba?lang=en" className="hover:text-maroon transition-colors">Tiktok</a></li>
+              <li><a href="https://x.com/jeilanioba" className="hover:text-maroon transition-colors">X</a></li>
             </ul>
 
             <h4 className="text-xs font-bold tracking-widest text-gray-500 uppercase mt-8 mb-6">Contact</h4>
             <ul className="space-y-3 text-sm text-gray-700">
               <li>Dehigastalawa, Balangoda, Sri Lanka</li>
-              <li>Email: <a href="mailto:email@jeilanioba.lk" className="hover:text-maroon">email@jeilanioba.lk</a></li>
-              <li>Phone: +94 XX XXX XXXX</li>
+              <li>Email: <a href="mailto:info@jeilanioba.com" className="hover:text-maroon">info@jeilanioba.com</a></li>
+              <li>Phone: 045 222222</li>
             </ul>
           </div>
 
@@ -101,7 +104,7 @@ const Footer = () => {
 
         {/* Bottom Bar: Copyright & Legal */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 space-y-4 md:space-y-0">
-          <p>&copy; {new Date().getFullYear()} Old Boys' Association - R/Jeilani Central College. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Old Boys' Association - Jeilani OBA Central College. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link to={`/${lang}/terms`} className="hover:text-maroon transition-colors">Terms & Conditions</Link>
             <Link to={`/${lang}/privacy`} className="hover:text-maroon transition-colors">Privacy Policy</Link>

@@ -56,7 +56,7 @@ const Home = () => {
                             {/* Replace with your actual image */}
                             <img
                                 src="/images/school-history.jpg"
-                                alt="R/Jeilani Central College"
+                                alt="Jeilani OBA Central College"
                                 className="relative z-10 w-full h-[400px] object-cover rounded-sm shadow-xl"
                             />
                         </div>
