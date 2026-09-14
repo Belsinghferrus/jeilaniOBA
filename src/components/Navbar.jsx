@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams, useLocation } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
+import logowhite from '../assets/images/logo-white1.png';
+import logomaroon from '../assets/images/logo-maroon.png';
 
 // Simple Inline Icons
 const SearchIcon = () => (
@@ -70,10 +72,23 @@ const Navbar = () => {
       <div className={`hidden lg:flex items-center justify-center px-8 border-r transition-colors duration-300 ${
         isScrolled ? 'border-gray-200' : 'border-white/20'
       }`}>
-        <Link to={`/${lang}`} className={`text-xl xl:text-2xl font-bold tracking-wider whitespace-nowrap transition-colors duration-300 ${
-          isScrolled ? 'text-maroon' : 'text-white drop-shadow-md'
-        }`}>
-          R/JEILANI OBA
+        <Link to={`/${lang}`} className="flex items-center">
+          {/* White Logo (Transparent State) */}
+          <img 
+            src={logowhite}
+            alt="R/Jeilani OBA" 
+            className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
+              isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
+            }`}
+          />
+          {/* Maroon Logo (Scrolled State) */}
+          <img 
+            src={logomaroon}
+            alt="R/Jeilani OBA" 
+            className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
+              isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
+            }`}
+          />
         </Link>
       </div>
 
@@ -100,14 +115,32 @@ const Navbar = () => {
         <div className="flex items-center justify-between px-4 lg:px-8 h-20 lg:h-16 transition-colors duration-300">
           
           {/* Mobile Menu Button & Logo */}
-          <div className={`flex lg:hidden items-center space-x-4 transition-colors duration-300 ${
-            isScrolled ? 'text-maroon' : 'text-white drop-shadow-md'
-          }`}>
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-3xl">
+          <div className={`flex lg:hidden items-center space-x-4 transition-colors duration-300`}>
+            <button 
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+              className={`text-3xl transition-colors duration-300 ${
+                isScrolled ? 'text-maroon' : 'text-white drop-shadow-md'
+              }`}
+            >
               ☰
             </button>
-            <Link to={`/${lang}`} className="text-lg font-bold tracking-wider">
-              R/JEILANI OBA
+            <Link to={`/${lang}`} className="flex items-center">
+              {/* White Logo (Mobile Transparent) */}
+              <img 
+                src={logowhite}
+                alt="R/Jeilani OBA" 
+                className={`h-9 w-auto transition-opacity duration-300 ${
+                  isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
+                }`}
+              />
+              {/* Maroon Logo (Mobile Scrolled) */}
+              <img 
+                src={logomaroon}
+                alt="R/Jeilani OBA" 
+                className={`h-9 w-auto transition-opacity duration-300 ${
+                  isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
+                }`}
+              />
             </Link>
           </div>
 
