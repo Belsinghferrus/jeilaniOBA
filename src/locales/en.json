@@ -677,5 +677,447 @@
       "submit": "Send Message",
       "success": "Thank you — your message has been received."
     }
+  },
+
+
+  "privacyPage": {
+    "hero": {
+      "breadcrumb": "Privacy Policy",
+      "title": "Privacy Policy",
+      "subtitle": "How Jeilani Old Boys' Association collects, uses, and safeguards your personal information.",
+      "effectiveLabel": "Effective Date",
+      "effectiveValue": "14-09-2026"
+    },
+    "toc": {
+      "title": "Contents"
+    },
+    "sections": [
+      {
+        "id": "introduction",
+        "number": "1",
+        "title": "Introduction",
+        "blocks": [
+          { "type": "p", "text": "Jeilani Old Boys' Association (\"the Association\", \"we\", \"us\", or \"our\") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you visit our website at www.jeilanioba.com" }
+        ]
+      },
+      {
+        "id": "information-we-collect",
+        "number": "2",
+        "title": "Information We Collect",
+        "blocks": [
+          { "type": "p", "text": "2.1 Information You Provide to Us: When you register as a member, subscribe to updates, submit a contact form, register for an event, or make a donation, we may collect information such as your name, email address, phone number, postal address, date of birth, alumni batch/year, and payment-related details." },
+          { "type": "p", "text": "2.2 Information Collected Automatically: When you visit the Website, we may automatically collect certain technical information, including your IP address, browser type, device information, pages visited, and the date and time of your visit, through cookies and similar technologies." },
+          { "type": "p", "text": "2.3 We do not intentionally collect sensitive personal information (such as health or financial account details) beyond what is necessary to process membership dues, donations, or event fees." }
+        ]
+      },
+      {
+        "id": "how-we-use",
+        "number": "3",
+        "title": "How We Use Your Information",
+        "blocks": [
+          { "type": "p", "text": "We use the information we collect to:" },
+          { "type": "ul", "items": [
+            "Process membership applications and maintain member records;",
+            "Communicate with you about Association activities, events, and news;",
+            "Process donations, membership fees, and event registrations;",
+            "Respond to your inquiries and requests;",
+            "Improve and maintain the functionality of the Website;",
+            "Comply with legal obligations and protect the rights of the Association and its members."
+          ]}
+        ]
+      },
+      {
+        "id": "legal-basis",
+        "number": "4",
+        "title": "Legal Basis for Processing",
+        "blocks": [
+          { "type": "p", "text": "We process your personal information based on your consent, the necessity of processing to fulfil membership or event-related requests, and our legitimate interest in maintaining an active alumni community, in each case in a manner consistent with applicable data protection laws." }
+        ]
+      },
+      {
+        "id": "how-we-share",
+        "number": "5",
+        "title": "How We Share Your Information",
+        "blocks": [
+          { "type": "p", "text": "5.1 We do not sell or rent your personal information to third parties." },
+          { "type": "p", "text": "5.2 We may share information with:" },
+          { "type": "ul", "items": [
+            "Trusted service providers who assist us in operating the Website, processing payments, or sending communications, under confidentiality obligations;",
+            "Committee members and authorized volunteers for the purpose of managing membership and Association activities;",
+            "Legal or regulatory authorities where required by law."
+          ]},
+          { "type": "p", "text": "5.3 Any photographs or testimonials you voluntarily submit for publication on the Website may be visible to the public, in accordance with Section 7 of our Terms and Conditions." }
+        ]
+      },
+      {
+        "id": "data-security",
+        "number": "6",
+        "title": "Data Security",
+        "blocks": [
+          { "type": "p", "text": "We implement reasonable administrative, technical, and physical safeguards designed to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet is entirely secure, and we cannot guarantee absolute security." }
+        ]
+      },
+      {
+        "id": "data-retention",
+        "number": "7",
+        "title": "Data Retention",
+        "blocks": [
+          { "type": "p", "text": "We retain your personal information for as long as necessary to fulfil the purposes described in this Privacy Policy, maintain accurate membership and financial records, and comply with our legal obligations, after which it will be securely deleted or anonymized." }
+        ]
+      },
+      {
+        "id": "cookies",
+        "number": "8",
+        "title": "Cookies and Tracking Technologies",
+        "blocks": [
+          { "type": "p", "text": "The Website may use cookies and similar technologies to enhance your browsing experience, remember your preferences, and analyze Website traffic. You can control or disable cookies through your browser settings; however, doing so may affect certain features of the Website." }
+        ]
+      },
+      {
+        "id": "your-rights",
+        "number": "9",
+        "title": "Your Rights",
+        "blocks": [
+          { "type": "p", "text": "Subject to applicable law, you have the right to:" },
+          { "type": "ul", "items": [
+            "Access the personal information we hold about you;",
+            "Request correction of inaccurate or incomplete information;",
+            "Request deletion of your personal information, subject to our legal and record-keeping obligations;",
+            "Withdraw your consent to marketing communications at any time;",
+            "Object to or restrict certain processing of your information."
+          ]},
+          { "type": "p", "text": "To exercise any of these rights, please contact us using the details in Section 14 below." }
+        ]
+      },
+      {
+        "id": "childrens-privacy",
+        "number": "10",
+        "title": "Children's Privacy",
+        "blocks": [
+          { "type": "p", "text": "The Website is not directed at children under the age of 13, and we do not knowingly collect personal information from children without parental consent. If we become aware that we have inadvertently collected such information, we will take steps to delete it." }
+        ]
+      },
+      {
+        "id": "third-party-links",
+        "number": "11",
+        "title": "Third-Party Links",
+        "blocks": [
+          { "type": "p", "text": "The Website may contain links to external websites. This Privacy Policy does not apply to those third-party websites, and we encourage you to review their respective privacy policies." }
+        ]
+      },
+      {
+        "id": "international-transfers",
+        "number": "12",
+        "title": "International Data Transfers",
+        "blocks": [
+          { "type": "p", "text": "If your information is transferred to or processed in a country other than your country of residence, we will take appropriate steps to ensure it remains protected in accordance with this Privacy Policy and applicable law." }
+        ]
+      },
+      {
+        "id": "changes",
+        "number": "13",
+        "title": "Changes to This Privacy Policy",
+        "blocks": [
+          { "type": "p", "text": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised effective date. We encourage you to review this page periodically." }
+        ]
+      },
+      {
+        "id": "contact",
+        "number": "14",
+        "title": "Contact Us",
+        "blocks": [
+          { "type": "p", "text": "If you have questions or concerns about this Privacy Policy or how your information is handled, please contact us at:" },
+          { "type": "contact", "items": [
+            { "label": "Jeilani Old Boys' Association", "value": "" },
+            { "label": "Email", "value": "info@jeilanioba.com" },
+            { "label": "Address", "value": "Dehigastalawa, Balangoda Sri Lanka" },
+            { "label": "Website", "value": "www.jeilanioba.com/en" }
+          ]}
+        ]
+      }
+    ]
+  },
+
+
+
+  "refundPage": {
+    "hero": {
+      "breadcrumb": "Refund Policy",
+      "title": "Refund Policy",
+      "subtitle": "How refunds are handled for membership fees, donations, and event registrations at Jeilani Old Boys' Association.",
+      "effectiveLabel": "Effective Date",
+      "effectiveValue": "14-09-2026"
+    },
+    "toc": { "title": "Contents" },
+    "sections": [
+      {
+        "id": "introduction",
+        "number": "1",
+        "title": "Introduction",
+        "blocks": [
+          { "type": "p", "text": "This Refund Policy applies to any membership fees, voluntary donations, and event or program registration fees paid through the official website of Jeilani Old Boys' Association (\"the Association\"). As a community, non-profit membership organization, our approach to refunds differs from that of a commercial business and is set out below." }
+        ]
+      },
+      {
+        "id": "donations",
+        "number": "2",
+        "title": "Donations",
+        "blocks": [
+          { "type": "p", "text": "Donations made to the Association are voluntary contributions and are, as a general rule, non-refundable, except where:" },
+          { "type": "ul", "items": [
+            "A donation was made in error (such as a duplicate transaction or incorrect amount entered); or",
+            "A technical error on the Website resulted in an incorrect charge."
+          ]},
+          { "type": "p", "text": "Requests relating to a donation error must be submitted within [7] days of the transaction, accompanied by proof of payment." }
+        ]
+      },
+      {
+        "id": "membership-fees",
+        "number": "3",
+        "title": "Membership Fees",
+        "blocks": [
+          { "type": "p", "text": "3.1 Membership fees or annual subscriptions paid through the Website are refundable only if the request is made within [7] days of payment and before the member has accessed or used any membership benefits." },
+          { "type": "p", "text": "3.2 Membership fees are non-refundable once the membership application has been approved and benefits have been availed, or after the applicable request period has passed." },
+          { "type": "p", "text": "3.3 If a membership application is rejected by the Association's governing committee, any fee paid will be refunded in full." }
+        ]
+      },
+      {
+        "id": "event-fees",
+        "number": "4",
+        "title": "Event and Program Registration Fees",
+        "blocks": [
+          { "type": "p", "text": "4.1 If an event or program organized by the Association is cancelled, postponed, or substantially altered by the Association, registered participants will be offered a full refund or the option to transfer their registration to a rescheduled date." },
+          { "type": "p", "text": "4.2 If a participant chooses to cancel their own registration:" },
+          { "type": "ul", "items": [
+            "A full refund will be provided for cancellations made at least [14] days before the event;",
+            "A partial refund (50%) will be provided for cancellations made between [7] and [13] days before the event;",
+            "No refund will be provided for cancellations made less than [7] days before the event, as costs may already have been committed on the participant's behalf."
+          ]},
+          { "type": "p", "text": "4.3 No-shows on the day of the event are not eligible for a refund." }
+        ]
+      },
+      {
+        "id": "non-refundable",
+        "number": "5",
+        "title": "Non-Refundable Circumstances",
+        "blocks": [
+          { "type": "p", "text": "Refunds will not be issued in cases of:" },
+          { "type": "ul", "items": [
+            "Change of mind after the applicable request period;",
+            "Violation of the Association's code of conduct resulting in removal from an event or membership; or",
+            "Failure to provide required documentation for a refund request within the stipulated time."
+          ]}
+        ]
+      },
+      {
+        "id": "how-to-request",
+        "number": "6",
+        "title": "How to Request a Refund",
+        "blocks": [
+          { "type": "p", "text": "To request a refund, please contact us at [Insert Email] with your name, transaction date, amount paid, and reason for the request. Approved refunds will be processed within [14] business days to the original method of payment, unless otherwise agreed." }
+        ]
+      },
+      {
+        "id": "changes",
+        "number": "7",
+        "title": "Changes to This Policy",
+        "blocks": [
+          { "type": "p", "text": "The Association reserves the right to amend this Refund Policy at any time. Updates will be posted on this page with a revised effective date." }
+        ]
+      },
+      {
+        "id": "contact",
+        "number": "8",
+        "title": "Contact Us",
+        "blocks": [
+          { "type": "p", "text": "For any questions regarding this Refund Policy, please contact:" },
+          { "type": "contact", "items": [
+            { "label": "Jeilani Old Boys' Association", "value": "" },
+            { "label": "Email", "value": "info@jeilanioba.com" },
+            { "label": "Address", "value": "Dehigastalawa, Balangoda, Sri Lanka" },
+            { "label": "Website", "value": "www.jeilanioba.com" }
+          ]}
+        ]
+      }
+    ]
+  },
+
+
+
+  "termsPage": {
+    "hero": {
+      "breadcrumb": "Terms & Conditions",
+      "title": "Terms & Conditions",
+      "subtitle": "The terms governing your access to and use of the Jeilani Old Boys' Association website.",
+      "effectiveLabel": "Effective Date",
+      "effectiveValue": "14 September 2026"
+    },
+    "toc": { "title": "Contents" },
+    "sections": [
+      {
+        "id": "introduction",
+        "number": "1",
+        "title": "Introduction",
+        "blocks": [
+          { "type": "p", "text": "Welcome to the official website of Jeilani Old Boys' Association (\"the Association\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your access to and use of our website located at www.jeilanioba.com (\"the Website\"). By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use the Website." }
+        ]
+      },
+      {
+        "id": "about",
+        "number": "2",
+        "title": "About the Association",
+        "blocks": [
+          { "type": "p", "text": "Jeilani Old Boys' Association is a community organization formed by and for former students of R/Jeilani Central College, dedicated to fostering fellowship, supporting education, and community welfare. This Website is provided as an informational and community service platform and does not sell physical or digital products." }
+        ]
+      },
+      {
+        "id": "eligibility",
+        "number": "3",
+        "title": "Eligibility and Use of the Website",
+        "blocks": [
+          { "type": "p", "text": "3.1 The Website is intended for use by alumni, members, well-wishers, and the general public seeking information about the Association's activities." },
+          { "type": "p", "text": "3.2 By using the Website, you confirm that you are at least 18 years of age, or that you are using the Website under the supervision of a parent or guardian." },
+          { "type": "p", "text": "3.3 You agree to provide accurate and complete information when registering as a member, subscribing to updates, or submitting any form on the Website." }
+        ]
+      },
+      {
+        "id": "membership",
+        "number": "4",
+        "title": "Membership",
+        "blocks": [
+          { "type": "p", "text": "4.1 Membership in the Association, where offered through the Website, is subject to approval by the Association's governing committee." },
+          { "type": "p", "text": "4.2 The Association reserves the right to accept, reject, suspend, or terminate any membership at its discretion, in accordance with the Association's constitution and bylaws." },
+          { "type": "p", "text": "4.3 Any membership fees, subscriptions, or contributions collected through the Website are subject to the Refund Policy referenced in Section 9 below." }
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "number": "5",
+        "title": "Acceptable Use",
+        "blocks": [
+          { "type": "p", "text": "You agree not to:" },
+          { "type": "ul", "items": [
+            "Use the Website for any unlawful purpose or in violation of these Terms;",
+            "Post or transmit any content that is defamatory, obscene, threatening, or infringes on the rights of others;",
+            "Attempt to gain unauthorized access to any part of the Website, its servers, or any connected systems;",
+            "Interfere with or disrupt the operation of the Website;",
+            "Use automated tools (bots, scrapers) to extract data from the Website without prior written permission."
+          ]}
+        ]
+      },
+      {
+        "id": "intellectual-property",
+        "number": "6",
+        "title": "Intellectual Property",
+        "blocks": [
+          { "type": "p", "text": "6.1 All content on the Website, including but not limited to text, logos, images, graphics, and the Association's emblem, is the property of Jeilani Old Boys' Association or its licensors and is protected by applicable intellectual property laws." },
+          { "type": "p", "text": "6.2 You may view, download, and print content for personal, non-commercial use only. Any other use, including reproduction, distribution, or modification, requires prior written consent from the Association." }
+        ]
+      },
+      {
+        "id": "user-content",
+        "number": "7",
+        "title": "User-Submitted Content",
+        "blocks": [
+          { "type": "p", "text": "7.1 Where the Website allows members to submit photographs, testimonials, event content, or other materials, you retain ownership of your content but grant the Association a non-exclusive, royalty-free license to use, display, and reproduce such content for the Association's community, promotional, and archival purposes." },
+          { "type": "p", "text": "7.2 You confirm that any content you submit does not infringe the rights of any third party and does not contain unlawful, offensive, or inappropriate material." }
+        ]
+      },
+      {
+        "id": "donations-payments",
+        "number": "8",
+        "title": "Donations and Payments",
+        "blocks": [
+          { "type": "p", "text": "8.1 Where the Website facilitates donations, membership fees, or event registration payments, such transactions are processed through third-party payment service providers. The Association is not responsible for errors, delays, or issues arising from third-party payment processors." },
+          { "type": "p", "text": "8.2 All amounts are shown in LKR unless otherwise stated." }
+        ]
+      },
+      {
+        "id": "refund-policy",
+        "number": "9",
+        "title": "Refund Policy",
+        "blocks": [
+          { "type": "p", "text": "Any refunds relating to membership fees, donations, or event payments made through the Website are governed by our Refund Policy, which forms part of these Terms. Please refer to the separate Refund Policy document for full details." }
+        ]
+      },
+      {
+        "id": "privacy",
+        "number": "10",
+        "title": "Privacy",
+        "blocks": [
+          { "type": "p", "text": "Your use of the Website is also governed by our Privacy Policy, which explains how we collect, use, and protect your personal information. By using the Website, you consent to the practices described in the Privacy Policy." }
+        ]
+      },
+      {
+        "id": "third-party-links",
+        "number": "11",
+        "title": "Third-Party Links",
+        "blocks": [
+          { "type": "p", "text": "The Website may contain links to third-party websites or services that are not owned or controlled by the Association. We are not responsible for the content, privacy policies, or practices of any third-party websites." }
+        ]
+      },
+      {
+        "id": "disclaimer",
+        "number": "12",
+        "title": "Disclaimer of Warranties",
+        "blocks": [
+          { "type": "p", "text": "The Website and its content are provided on an \"as is\" and \"as available\" basis, without warranties of any kind, whether express or implied. The Association does not guarantee that the Website will be uninterrupted, error-free, or free of viruses or harmful components." }
+        ]
+      },
+      {
+        "id": "liability",
+        "number": "13",
+        "title": "Limitation of Liability",
+        "blocks": [
+          { "type": "p", "text": "To the fullest extent permitted by applicable law, the Association, its committee members, officers, and volunteers shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of, or inability to use, the Website." }
+        ]
+      },
+      {
+        "id": "indemnification",
+        "number": "14",
+        "title": "Indemnification",
+        "blocks": [
+          { "type": "p", "text": "You agree to indemnify and hold harmless the Association, its committee members, and volunteers from any claims, damages, losses, or expenses arising out of your use of the Website or your violation of these Terms." }
+        ]
+      },
+      {
+        "id": "termination",
+        "number": "15",
+        "title": "Suspension and Termination",
+        "blocks": [
+          { "type": "p", "text": "The Association reserves the right, at its sole discretion, to suspend or terminate your access to the Website or any membership benefits, without prior notice, for conduct that violates these Terms or is otherwise harmful to the Association or other users." }
+        ]
+      },
+      {
+        "id": "governing-law",
+        "number": "16",
+        "title": "Governing Law",
+        "blocks": [
+          { "type": "p", "text": "These Terms shall be governed by and construed in accordance with the laws of Sri Lanka, without regard to its conflict of law principles. Any disputes arising from these Terms shall be subject to the exclusive jurisdiction of the courts of Balangoda, Sri Lanka." }
+        ]
+      },
+      {
+        "id": "changes",
+        "number": "17",
+        "title": "Changes to These Terms",
+        "blocks": [
+          { "type": "p", "text": "The Association reserves the right to modify or update these Terms at any time. Any changes will be posted on this page with a revised effective date. Your continued use of the Website after such changes constitutes your acceptance of the updated Terms." }
+        ]
+      },
+      {
+        "id": "contact",
+        "number": "18",
+        "title": "Contact Us",
+        "blocks": [
+          { "type": "p", "text": "If you have any questions about these Terms, please contact us at:" },
+          { "type": "contact", "items": [
+            { "label": "Jeilani Old Boys' Association", "value": "" },
+            { "label": "Email", "value": "info@jeilanioba.com" },
+            { "label": "Address", "value": "Dehigastalawa, Balangoda, Sri Lanka" },
+            { "label": "Website", "value": "www.jeilanioba.com" }
+          ]}
+        ]
+      }
+    ]
   }
 }
