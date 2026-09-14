@@ -621,12 +621,61 @@
         "addressLabel": "Association Address",
         "addressValue": "Dehigastalawa, Balangoda, Sri Lanka",
         "emailLabel": "Email",
-        "emailValue": "email@jeilanioba.lk",
+        "emailValue": "info@jeilanioba.com",
         "phoneLabel": "Phone",
-        "phoneValue": "+94 XX XXX XXXX",
-        "hoursLabel": "Office Hours",
+        "phoneValue": "045 222222",
+        "hoursLabel": "Dehigastalawa, Balangoda Sri Lanka",
         "hoursValue": "Weekdays · 9:00 AM - 5:00 PM"
       }
+    },
+    "social": {
+      "overline": "Follow Us",
+      "title": "Connect on Social Media",
+      "subtitle": "Stay up to date with the Association through our official channels.",
+      "channels": [
+        {
+          "name": "Facebook",
+          "handle": "@jeilanioba",
+          "url": "https://www.facebook.com/profile.php?id=61594431203153"
+        },
+        {
+          "name": "Instagram",
+          "handle": "@jeilanioba",
+          "url": "https://www.instagram.com/jeilanioba/"
+        },
+        {
+          "name": "X",
+          "handle": "@jeilanioba",
+          "url": "https://x.com/jeilanioba"
+        },
+        {
+          "name": "TikTok",
+          "handle": "@jeilanioba",
+          "url": "https://www.tiktok.com/@jeilanioba?lang=en"
+        },
+        {
+          "name": "YouTube",
+          "handle": "@JeilaniOBA",
+          "url": "https://www.youtube.com/@JeilaniOBA"
+        }
+      ]
+    },
+    "form": {
+      "overline": "Send a Message",
+      "title": "Write to Us",
+      "subtitle": "Whether it's an enquiry, an idea, or a memory you'd like to share — we read every message.",
+      "fields": {
+        "name": "Full Name",
+        "namePlaceholder": "Your name",
+        "email": "Email Address",
+        "emailPlaceholder": "you@example.com",
+        "subject": "Subject",
+        "subjectPlaceholder": "What is this regarding?",
+        "message": "Message",
+        "messagePlaceholder": "Write your message here..."
+      },
+      "submit": "Send Message",
+      "success": "Thank you — your message has been received."
     }
   }
 }

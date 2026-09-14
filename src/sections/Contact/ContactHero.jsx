@@ -1,6 +1,6 @@
 import { useLanguage } from '../../hooks/useLanguage';
 import { Link, useParams } from 'react-router-dom';
-
+import bg from "../../assets/images/x7.jpg";
 const ContactHero = () => {
   const { t } = useLanguage();
   const { lang } = useParams();
@@ -10,7 +10,7 @@ const ContactHero = () => {
       
       {/* Background Image */}
       <img 
-        src="/images/hero-contact.jpg" 
+        src={bg}
         alt="Contact Us" 
         className="absolute top-0 left-0 w-full h-full object-cover"
         onError={(e) => { e.target.style.display = 'none'; }}

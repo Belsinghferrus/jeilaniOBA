@@ -621,12 +621,61 @@
                 "addressLabel": "சங்க முகவரி",
                 "addressValue": "தெஹிகஸ்தலாவ, பலங்கொடை, இலங்கை",
                 "emailLabel": "மின்னஞ்சல்",
-                "emailValue": "email@jeilanioba.lk",
+                "emailValue": "info@jeilanioba.com",
                 "phoneLabel": "தொலைபேசி",
-                "phoneValue": "+94 XX XXX XXXX",
+                "phoneValue": "045 222222",
                 "hoursLabel": "அலுவலக நேரம்",
                 "hoursValue": "வாரநாட்கள் · காலை 9:00 - மாலை 5:00"
             }
+        },
+        "social": {
+            "overline": "எங்களை பின்தொடருங்கள்",
+            "title": "சமூக ஊடகங்களில் இணையுங்கள்",
+            "subtitle": "எங்கள் அதிகாரப்பூர்வ சேனல்கள் மூலம் சங்கத்துடன் புதுப்பித்த நிலையில் இருங்கள்.",
+            "channels": [
+                {
+                    "name": "Facebook",
+                    "handle": "@jeilanioba",
+                    "url": "https://www.facebook.com/profile.php?id=61594431203153"
+                },
+                {
+                    "name": "Instagram",
+                    "handle": "@jeilanioba",
+                    "url": "https://www.instagram.com/jeilanioba/"
+                },
+                {
+                    "name": "X",
+                    "handle": "@jeilanioba",
+                    "url": "https://x.com/jeilanioba"
+                },
+                {
+                    "name": "TikTok",
+                    "handle": "@jeilanioba",
+                    "url": "https://www.tiktok.com/@jeilanioba?lang=en"
+                },
+                {
+                    "name": "YouTube",
+                    "handle": "@JeilaniOBA",
+                    "url": "https://www.youtube.com/@JeilaniOBA"
+                }
+            ]
+        },
+        "form": {
+            "overline": "ஒரு செய்தி அனுப்புங்கள்",
+            "title": "எங்களுக்கு எழுதுங்கள்",
+            "subtitle": "ஒரு விசாரணையோ, ஒரு யோசனையோ, அல்லது நீங்கள் பகிர விரும்பும் ஒரு நினைவோ — ஒவ்வொரு செய்தியையும் நாங்கள் படிக்கிறோம்.",
+            "fields": {
+                "name": "முழுப் பெயர்",
+                "namePlaceholder": "உங்கள் பெயர்",
+                "email": "மின்னஞ்சல் முகவரி",
+                "emailPlaceholder": "you@example.com",
+                "subject": "பொருள்",
+                "subjectPlaceholder": "இது எதைப் பற்றியது?",
+                "message": "செய்தி",
+                "messagePlaceholder": "உங்கள் செய்தியை இங்கே எழுதுங்கள்..."
+            },
+            "submit": "செய்தியை அனுப்பவும்",
+            "success": "நன்றி — உங்கள் செய்தி பெறப்பட்டது."
         }
     }
 }
