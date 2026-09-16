@@ -3,6 +3,7 @@ import { Link, useParams, useLocation } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
 import logowhite from '../assets/images/logo-white1.png';
 import logomaroon from '../assets/images/logo-maroon.png';
+import oba from '../assets/images/oba.png';
 
 // Simple Inline Icons
 const SearchIcon = () => (
@@ -75,7 +76,7 @@ const Navbar = () => {
         <Link to={`/${lang}`} className="flex items-center">
           {/* White Logo (Transparent State) */}
           <img 
-            src={logowhite}
+            src={oba}
             alt="Jeilani OBA OBA" 
             className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
               isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
@@ -83,7 +84,7 @@ const Navbar = () => {
           />
           {/* Maroon Logo (Scrolled State) */}
           <img 
-            src={logomaroon}
+            src={oba}
             alt="Jeilani OBA OBA" 
             className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
               isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
@@ -127,17 +128,17 @@ const Navbar = () => {
             <Link to={`/${lang}`} className="flex items-center">
               {/* White Logo (Mobile Transparent) */}
               <img 
-                src={logowhite}
+                src={oba}
                 alt="Jeilani OBA OBA" 
-                className={`h-9 w-auto transition-opacity duration-300 ${
+                className={`h-16 w-auto transition-opacity duration-300 ${
                   isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
                 }`}
               />
               {/* Maroon Logo (Mobile Scrolled) */}
               <img 
-                src={logomaroon}
+                src={oba}
                 alt="Jeilani OBA OBA" 
-                className={`h-9 w-auto transition-opacity duration-300 ${
+                className={`h-16 w-auto transition-opacity duration-300 ${
                   isScrolled ? 'opacity-100 relative' : 'opacity-0 absolute'
                 }`}
               />
