@@ -18,6 +18,7 @@ const Home = () => {
 
     return (
         <div className="w-full">
+            
             {/* 1. Hero Video Section */}
             <HeroVideo />
 
