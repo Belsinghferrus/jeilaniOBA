@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import oba from '../assets/images/oba.png';
+import oba from '../assets/images/oba-white.png';
 
 
 const IntroLoader = ({ onComplete }) => {

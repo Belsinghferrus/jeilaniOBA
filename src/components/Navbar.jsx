@@ -4,6 +4,7 @@ import { useLanguage } from '../hooks/useLanguage';
 import logowhite from '../assets/images/logo-white1.png';
 import logomaroon from '../assets/images/logo-maroon.png';
 import oba from '../assets/images/oba.png';
+import obaWhite from '../assets/images/oba-white.png';
 
 // Simple Inline Icons
 const SearchIcon = () => (
@@ -76,7 +77,7 @@ const Navbar = () => {
         <Link to={`/${lang}`} className="flex items-center">
           {/* White Logo (Transparent State) */}
           <img 
-            src={oba}
+            src={obaWhite}
             alt="Jeilani OBA OBA" 
             className={`h-22 xl:h-28 w-auto transition-opacity duration-300 ${
               isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
@@ -128,7 +129,7 @@ const Navbar = () => {
             <Link to={`/${lang}`} className="flex items-center">
               {/* White Logo (Mobile Transparent) */}
               <img 
-                src={oba}
+                src={obaWhite}
                 alt="Jeilani OBA OBA" 
                 className={`h-16 w-auto transition-opacity duration-300 ${
                   isScrolled ? 'opacity-0 absolute' : 'opacity-100 relative'
