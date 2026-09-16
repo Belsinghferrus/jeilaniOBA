@@ -1116,6 +1116,29 @@
             ]
           }
         ]
+      },
+
+      "feedback": {
+        "navLabel": "கருத்து",
+        "title": "உங்கள் கருத்தைப் பகிருங்கள்",
+        "subtitle": "உங்கள் எண்ணங்கள் எங்களை மேம்படுத்த உதவுகின்றன. உங்கள் மனதில் இருப்பதை எங்களிடம் சொல்லுங்கள்.",
+        "categoryLabel": "வகை",
+        "categories": [
+          { "value": "request", "label": "கோரிக்கை" },
+          { "value": "complaint", "label": "புகார்" },
+          { "value": "suggestion", "label": "பரிந்துரை" },
+          { "value": "appreciation", "label": "பாராட்டு" },
+          { "value": "other", "label": "மற்றவை" }
+        ],
+        "nameLabel": "முழுப் பெயர்",
+        "namePlaceholder": "உங்கள் பெயர்",
+        "emailLabel": "மின்னஞ்சல் முகவரி",
+        "emailPlaceholder": "you@example.com",
+        "messageLabel": "உங்கள் செய்தி",
+        "messagePlaceholder": "மேலும் எங்களிடம் சொல்லுங்கள்...",
+        "submit": "கருத்தைச் சமர்ப்பிக்கவும்",
+        "success": "நன்றி — உங்கள் கருத்து பெறப்பட்டது.",
+        "close": "மூடு"
       }
 
       

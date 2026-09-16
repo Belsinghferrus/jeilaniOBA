@@ -1119,6 +1119,29 @@
         ]
       }
     ]
+  },
+
+  "feedback": {
+    "navLabel": "Feedback",
+    "title": "Share Your Feedback",
+    "subtitle": "Your thoughts help us improve. Tell us what's on your mind.",
+    "categoryLabel": "Category",
+    "categories": [
+      { "value": "request", "label": "Request" },
+      { "value": "complaint", "label": "Complaint" },
+      { "value": "suggestion", "label": "Suggestion" },
+      { "value": "appreciation", "label": "Appreciation" },
+      { "value": "other", "label": "Other" }
+    ],
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Tell us more...",
+    "submit": "Submit Feedback",
+    "success": "Thank you — your feedback has been received.",
+    "close": "Close"
   }
 
   
