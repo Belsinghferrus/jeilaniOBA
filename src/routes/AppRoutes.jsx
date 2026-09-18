@@ -14,6 +14,8 @@ import Terms from '../pages/Terms';
 import Refund from '../pages/Refund';
 import { AnimatePresence } from 'framer-motion';
 import ScrollToTop from '../components/ScrollToTop';
+import Feedback from '../pages/Feedback';
+import Careers from '../pages/Careers';
 
 
 const AppRoutes = () => {
@@ -42,6 +44,8 @@ const AppRoutes = () => {
                     <Route path="privacy" element={<Privacy />} />
                     <Route path="terms" element={<Terms />} />
                     <Route path="refund" element={<Refund />} />
+                    <Route path="feedback" element={<Feedback />} />
+                    <Route path="careers" element={<Careers />} />
 
                 </Route>
             </Routes>

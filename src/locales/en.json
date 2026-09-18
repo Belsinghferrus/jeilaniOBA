@@ -10,7 +10,8 @@
     "register": "Register",
     "news": "Newsroom",
     "events": "Events",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "careers": "Careers"
   },
   "hero": {
     "subtitle": "Old Boys' Association",
@@ -1123,25 +1124,163 @@
 
   "feedback": {
     "navLabel": "Feedback",
-    "title": "Share Your Feedback",
-    "subtitle": "Your thoughts help us improve. Tell us what's on your mind.",
-    "categoryLabel": "Category",
-    "categories": [
-      { "value": "request", "label": "Request" },
-      { "value": "complaint", "label": "Complaint" },
-      { "value": "suggestion", "label": "Suggestion" },
-      { "value": "appreciation", "label": "Appreciation" },
-      { "value": "other", "label": "Other" }
-    ],
-    "nameLabel": "Full Name",
-    "namePlaceholder": "Your name",
-    "emailLabel": "Email Address",
-    "emailPlaceholder": "you@example.com",
-    "messageLabel": "Your Message",
-    "messagePlaceholder": "Tell us more...",
-    "submit": "Submit Feedback",
-    "success": "Thank you — your feedback has been received.",
-    "close": "Close"
+    "hero": {
+      "breadcrumb": "Feedback",
+      "title": "Share Your Feedback",
+      "subtitle": "Your thoughts help us improve. Whether it's a request, a complaint, or a suggestion — we read every message."
+    },
+    "form": {
+      "overline": "We're Listening",
+      "title": "Tell Us What's on Your Mind",
+      "subtitle": "All feedback is reviewed by the Executive Committee and treated with confidentiality.",
+      "categoryLabel": "Category",
+      "categories": [
+        { "value": "request", "label": "Request" },
+        { "value": "complaint", "label": "Complaint" },
+        { "value": "suggestion", "label": "Suggestion" },
+        { "value": "appreciation", "label": "Appreciation" },
+        { "value": "other", "label": "Other" }
+      ],
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+94 XX XXX XXXX",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Tell us more...",
+      "submit": "Submit Feedback",
+      "success": "Thank you — your feedback has been received.",
+      "optional": "optional"
+    }
+  },
+
+  "careersPage": {
+    "jobs": {
+      "overline": "Open Positions",
+      "title": "Current Opportunities",
+      "subtitle": "Browse roles by category and apply directly through the form below.",
+      "allLabel": "All Roles",
+      "emptyLabel": "No positions currently available in this category.",
+      "applyBtn": "Apply Now",
+      "categories": [
+        { "value": "internship", "label": "Internship" },
+        { "value": "remote", "label": "Remote" },
+        { "value": "trainee", "label": "Trainee" },
+        { "value": "permanent", "label": "Permanent" }
+      ],
+      "items": [
+        {
+          "category": "internship",
+          "title": "Marketing & Communications Intern",
+          "location": "Balangoda / Hybrid",
+          "duration": "3 months",
+          "desc": "Support the Association's digital outreach, social media, and newsletter production. Ideal for undergraduates or recent graduates in media, marketing, or communications."
+        },
+        {
+          "category": "internship",
+          "title": "Event Management Intern",
+          "location": "Balangoda",
+          "duration": "6 months",
+          "desc": "Assist in planning and executing Association events — from reunions and dinners to the annual sports meet. Hands-on experience in end-to-end event coordination."
+        },
+        {
+          "category": "internship",
+          "title": "Finance & Admin Intern",
+          "location": "Balangoda",
+          "duration": "3 months",
+          "desc": "Work alongside the Treasurer to maintain financial records, process subscriptions, and support audit preparation. Ideal for accounting or business students."
+        },
+        {
+          "category": "remote",
+          "title": "Web Developer (Freelance)",
+          "location": "Remote",
+          "duration": "Project-based",
+          "desc": "Help maintain and enhance the Association's website. Experience with React, Tailwind CSS, and modern web tooling required."
+        },
+        {
+          "category": "remote",
+          "title": "Content Writer & Editor",
+          "location": "Remote",
+          "duration": "Ongoing · Part-time",
+          "desc": "Write and edit articles, member stories, and newsletter content for the Old Jeilanian community. Strong English and/or Tamil writing skills required."
+        },
+        {
+          "category": "remote",
+          "title": "Social Media Manager",
+          "location": "Remote",
+          "duration": "Ongoing · Part-time",
+          "desc": "Manage the Association's Facebook, Instagram, X, TikTok, and YouTube channels. Create engaging content and grow community engagement."
+        },
+        {
+          "category": "trainee",
+          "title": "Committee Trainee — Events",
+          "location": "Balangoda",
+          "duration": "12 months",
+          "desc": "A structured trainee programme for recent school leavers and young alumni to gain hands-on experience in event management and community leadership."
+        },
+        {
+          "category": "trainee",
+          "title": "Committee Trainee — Membership",
+          "location": "Balangoda",
+          "duration": "12 months",
+          "desc": "Learn the ins and outs of membership management, member onboarding, and database administration within a non-profit setting."
+        },
+        {
+          "category": "permanent",
+          "title": "Association Secretary",
+          "location": "Balangoda",
+          "duration": "Full-time · Permanent",
+          "desc": "Lead the day-to-day administration of the Association, coordinate committee meetings, and manage correspondence with members and stakeholders."
+        },
+        {
+          "category": "permanent",
+          "title": "Finance Officer",
+          "location": "Balangoda",
+          "duration": "Full-time · Permanent",
+          "desc": "Manage the Association's financial operations including subscriptions, donations, project budgets, and annual audits. Accounting qualification preferred."
+        },
+        {
+          "category": "permanent",
+          "title": "Programmes Coordinator",
+          "location": "Balangoda",
+          "duration": "Full-time · Permanent",
+          "desc": "Oversee the Association's scholarship, mentorship, and community welfare programmes. Experience in non-profit programme management required."
+        }
+      ]
+    },
+    "apply": {
+      "title": "Apply for Position",
+      "subtitle": "Fill in your details below and we'll be in touch.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+94 XX XXX XXXX",
+      "linkedinLabel": "LinkedIn / Portfolio URL",
+      "linkedinPlaceholder": "https://linkedin.com/in/yourprofile",
+      "optional": "optional",
+      "coverLabel": "Cover Note",
+      "coverPlaceholder": "Tell us why you're a great fit for this role...",
+      "resumeLabel": "Resume / CV Link",
+      "resumePlaceholder": "Google Drive / Dropbox link",
+      "submit": "Submit Application",
+      "success": "Thank you — your application has been received.",
+      "close": "Close"
+    },
+    "hero": {
+      "breadcrumb": "Careers",
+      "title": "Join Our Team",
+      "subtitle": "Volunteer your skills, shape the future of the Association, and give back to the school that shaped you."
+    },
+    "cta": {
+      "overline": "Ready to Contribute?",
+      "title": "Get in Touch",
+      "desc": "If any of these roles interest you, or you'd like to explore other ways to contribute, we'd love to hear from you.",
+      "btn": "Contact Us",
+      "btnSecondary": "Send Feedback"
+    }
   }
 
   
