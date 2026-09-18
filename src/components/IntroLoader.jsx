@@ -2,32 +2,27 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import oba from '../assets/images/oba-white.png';
 
-
 const IntroLoader = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
   const [isExiting, setIsExiting] = useState(false);
 
-  // Progress counter over ~2.6s, then trigger exit
-  // Simulated "heavy loading" progress — with stutters and pauses
+  // Fast "heavy loading" progress — total ~1.2 seconds
   useEffect(() => {
     // Each entry: [targetPercent, durationMs]
-    // The bar races, then stutters, then races again — like real loading
     const stages = [
-      [12, 150],   // Quick initial jump
-      [18, 400],   // Slow crawl
-      [26, 200],   // Small burst
-      [28, 500],   // STUCK — feels heavy
-      [29, 300],   // Barely moving
-      [42, 250],   // Sudden burst
-      [54, 180],   // Quick jump
-      [56, 600],   // LONG STUCK — most tense moment
-      [57, 400],   // Barely creeping
-      [58, 300],   // Still stuck
-      [74, 200],   // Big burst
-      [82, 150],   // Rapid
-      [84, 350],   // Small pause
-      [96, 200],   // Nearly there
-      [100, 180],  // Finish
+      [15, 80],    // Quick initial jump
+      [24, 120],   // Small crawl
+      [32, 90],    // Burst
+      [35, 180],   // STUCK — brief hesitation
+      [37, 100],   // Barely moving
+      [52, 120],   // Sudden burst
+      [68, 100],   // Quick jump
+      [71, 220],   // LONG STUCK — most tense moment
+      [73, 130],   // Creeping
+      [86, 90],    // Big burst
+      [94, 70],    // Rapid
+      [96, 120],   // Small pause
+      [100, 90],   // Finish
     ];
 
     let currentStage = 0;
@@ -50,14 +45,12 @@ const IntroLoader = ({ onComplete }) => {
       setProgress(value);
 
       if (t >= 1) {
-        // Move to next stage
         startProgress = target;
         startTime = Date.now();
         currentStage++;
 
         if (currentStage >= stages.length) {
-          // All stages complete — trigger exit after a beat
-          setTimeout(() => setIsExiting(true), 250);
+          setTimeout(() => setIsExiting(true), 120);
           return;
         }
       }
@@ -78,7 +71,7 @@ const IntroLoader = ({ onComplete }) => {
     if (isExiting) {
       const exitTimer = setTimeout(() => {
         onComplete();
-      }, 700); // match the exit animation duration
+      }, 500); // matches shorter exit duration
       return () => clearTimeout(exitTimer);
     }
   }, [isExiting, onComplete]);
@@ -90,7 +83,7 @@ const IntroLoader = ({ onComplete }) => {
           key="intro-loader"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, y: '-100%' }}
-          transition={{ duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
+          transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
           className="fixed inset-0 z-[100] bg-[#660033] flex flex-col items-center justify-center overflow-hidden"
         >
           
@@ -99,13 +92,13 @@ const IntroLoader = ({ onComplete }) => {
             <motion.div 
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 2, ease: 'easeOut' }}
+              transition={{ duration: 1, ease: 'easeOut' }}
               className="absolute -top-40 -right-40 w-[600px] h-[600px] border-[60px] border-white rounded-full"
             ></motion.div>
             <motion.div 
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 2, delay: 0.3, ease: 'easeOut' }}
+              transition={{ duration: 1, delay: 0.15, ease: 'easeOut' }}
               className="absolute -bottom-40 -left-40 w-[500px] h-[500px] border-[50px] border-[#D4AF37] rounded-full"
             ></motion.div>
           </div>
@@ -117,18 +110,18 @@ const IntroLoader = ({ onComplete }) => {
             <motion.img
               src={oba}
               alt="Jeilani OBA"
-              initial={{ opacity: 0, y: 20, scale: 0.95 }}
+              initial={{ opacity: 0, y: 15, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-              className="h-42 md:h-42 lg:h-42 w-auto object-contain mb-10"
+              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+              className="h-42 md:h-42 lg:h-42 w-auto object-contain mb-8"
             />
 
             {/* Tagline */}
             <motion.p
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="text-[#D4AF37] font-bold tracking-[0.3em] uppercase text-[10px] md:text-xs text-center mb-12"
+              transition={{ duration: 0.4, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              className="text-[#D4AF37] font-bold tracking-[0.3em] uppercase text-[10px] md:text-xs text-center mb-10"
             >
               One School · One Community · One Legacy
             </motion.p>
@@ -140,7 +133,7 @@ const IntroLoader = ({ onComplete }) => {
                   className="absolute top-0 left-0 h-full bg-[#D4AF37]"
                   initial={{ width: 0 }}
                   animate={{ width: `${progress}%` }}
-                  transition={{ duration: 0.05, ease: 'linear' }}
+                  transition={{ duration: 0.03, ease: 'linear' }}
                 />
               </div>
 
@@ -161,7 +154,7 @@ const IntroLoader = ({ onComplete }) => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
             className="absolute bottom-8 left-0 right-0 text-center"
           >
             <p className="text-white/40 text-[10px] tracking-[0.3em] uppercase">
