@@ -29,7 +29,7 @@ const OfficeBearers = () => {
         </div>
 
         {/* FEATURED: Chairman */}
-        <div className="mb-16">
+        <div className="mb-16" data-aos="fade-up">
           <div className="bg-white shadow-lg overflow-hidden grid md:grid-cols-12">
             
             {/* Chairman Portrait */}
@@ -63,7 +63,8 @@ const OfficeBearers = () => {
         {/* GRID: Other Office Bearers */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
           {otherOfficers.map((member, index) => (
-            <div key={index} className="group flex flex-col">
+            <div key={index} className="group flex flex-col"  data-aos="fade-up"
+            data-aos-delay={index * 120}>
               
               {/* Portrait */}
               <div className="w-full aspect-square bg-white overflow-hidden relative border border-gray-200 group-hover:border-[#D4AF37] transition-colors duration-300 mb-5">

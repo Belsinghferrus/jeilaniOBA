@@ -6,7 +6,8 @@ const AboutOverview = () => {
 
   return (
     <section className="py-24 bg-white">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-6xl" data-aos="fade-up"
+     data-aos-duration="3000">
         
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
           

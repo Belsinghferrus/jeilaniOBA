@@ -7,12 +7,14 @@ const CommitteeMessage = () => {
     <section className="py-24 bg-[#660033] relative overflow-hidden">
       
       {/* Subtle Background Geometric Decoration */}
-      <div className="absolute inset-0 opacity-5 pointer-events-none">
+      <div className="absolute inset-0 opacity-5 pointer-events-none" >
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] border-[50px] border-white rounded-full"></div>
         <div className="absolute -bottom-32 -left-32 w-[350px] h-[350px] border-[35px] border-[#D4AF37] rounded-full"></div>
       </div>
 
-      <div className="container mx-auto px-6 max-w-6xl relative z-10">
+      <div className="container mx-auto px-6 max-w-6xl relative z-10" data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
           

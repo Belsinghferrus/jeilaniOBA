@@ -23,9 +23,10 @@ const Mission = () => {
 
           {/* RIGHT COLUMN: Mission Items List */}
           <div className="md:col-span-8" >
-            <div className="flex flex-col space-y-12" data-aos="fade-left">
+            <div className="flex flex-col space-y-12" >
               {t.mission.items.map((item, index) => (
-                <div key={index} className="group flex flex-col md:flex-row gap-4 md:gap-8 items-start">
+                <div key={index} className="group flex flex-col md:flex-row gap-4 md:gap-8 items-start"  data-aos="fade-up"
+                data-aos-delay={index * 100} >
                   
                   {/* Minimalist Gold Accent Line */}
                   <div className="hidden md:block w-12 h-0.5 bg-gold mt-4 flex-shrink-0 group-hover:w-16 transition-all duration-300"></div>

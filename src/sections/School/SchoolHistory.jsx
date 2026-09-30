@@ -8,10 +8,10 @@ const SchoolHistory = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         
-        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start" >
           
           {/* LEFT COLUMN: Sticky Title */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-4" data-aos="fade-up">
             <div className="md:sticky md:top-32">
               <SectionTitle title={t.schoolPage.history.title} />
             </div>
@@ -25,7 +25,8 @@ const SchoolHistory = () => {
 
             <div className="space-y-14">
               {t.schoolPage.history.timeline.map((item, index) => (
-                <div key={index} className="relative flex items-start gap-8">
+                <div key={index} className="relative flex items-start gap-8"  data-aos="fade-up"
+                data-aos-delay={index * 100}>
                   
                   {/* Year Marker */}
                   <div className="relative z-10 flex-shrink-0">

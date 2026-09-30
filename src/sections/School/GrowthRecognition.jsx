@@ -6,7 +6,7 @@ const GrowthRecognition = () => {
 
   return (
     <section className="py-24 bg-offwhite">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-6xl"  data-aos="fade-right" data-aos-duration="900">
         
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
           

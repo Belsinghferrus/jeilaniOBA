@@ -14,7 +14,7 @@ const OurStory = () => {
         </div>
 
         {/* Pull Quote */}
-        <div className="relative mb-20 pl-6 md:pl-12 border-l-4 border-[#D4AF37]">
+        <div className="relative mb-20 pl-6 md:pl-12 border-l-4 border-[#D4AF37]" data-aos="fade-up-left">
           <span className="absolute -top-10 -left-4 text-8xl text-[#660033]/10 font-serif leading-none select-none">
             &ldquo;
           </span>
@@ -24,7 +24,7 @@ const OurStory = () => {
         </div>
 
         {/* Two-Column Body Text */}
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20" data-aos="zoom-out-up">
           <div>
             <p className="text-gray-700 leading-relaxed text-lg text-justify">
               {t.story.p2}
