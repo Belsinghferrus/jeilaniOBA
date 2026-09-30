@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import AppRoutes from './routes/AppRoutes';
 import IntroLoader from './components/IntroLoader';
+import AOS from 'aos';
 
 function App() {
   const [showIntro, setShowIntro] = useState(true);
@@ -11,6 +12,20 @@ function App() {
     setIsReady(true);
   };
 
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,          // Animation duration in ms
+      easing: 'ease-out-cubic',
+      once: true,             // Only animate once per page load
+      offset: 80,             // Trigger point (px from bottom of viewport)
+      delay: 0,               // Global delay
+      mirror: false,          // Don't animate out when scrolling past
+      anchorPlacement: 'top-bottom',
+    });
+  }, []);
+
+  
   // Prevent scroll while the intro is playing
   useEffect(() => {
     if (showIntro) {

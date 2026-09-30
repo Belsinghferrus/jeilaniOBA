@@ -6,7 +6,7 @@ const OurStory = () => {
 
   return (
     <section className="py-24 bg-offwhite">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-6xl" data-aos="zoom-in">
         
         {/* Section Header */}
         <div className="mb-16">

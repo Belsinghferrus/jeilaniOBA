@@ -16,7 +16,7 @@ const PresidentMessage = () => {
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
           
           {/* LEFT COLUMN: Portrait Placeholder */}
-          <div className="md:col-span-4 relative">
+          <div className="md:col-span-4 relative" data-aos="flip-up">
             {/* Decorative gold bottom border */}
             <div className="absolute -bottom-4 left-4 w-full h-full border-b-4 border-gold rounded-sm z-0"></div>
             
@@ -38,7 +38,7 @@ const PresidentMessage = () => {
           </div>
 
           {/* RIGHT COLUMN: Message Content */}
-          <div className="md:col-span-8 relative pt-4">
+          <div className="md:col-span-8 relative pt-4"  data-aos="zoom-in-up">
             {/* Decorative Large Quote Mark */}
             <span className="absolute -top-12 -left-6 text-9xl text-maroon/5 font-serif leading-none select-none z-0">
               &ldquo;

@@ -12,7 +12,7 @@ const SchoolOverview = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           
           {/* LEFT COLUMN: Text Content */}
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1" data-aos="zoom-in-up">
             <SectionTitle title={t.schoolOverview.title} />
             
             <p className="text-gray-700 leading-relaxed text-lg text-justify mb-10">
@@ -32,7 +32,7 @@ const SchoolOverview = () => {
           </div>
 
           {/* RIGHT COLUMN: Image with decorative maroon border */}
-          <div className="relative order-1 md:order-2">
+          <div className="relative order-1 md:order-2" data-aos="flip-left">
             {/* Decorative maroon background block */}
             <div className="absolute inset-0 bg-maroon translate-x-4 translate-y-4 rounded-sm"></div>
             

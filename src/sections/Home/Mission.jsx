@@ -22,8 +22,8 @@ const Mission = () => {
           </div>
 
           {/* RIGHT COLUMN: Mission Items List */}
-          <div className="md:col-span-8">
-            <div className="flex flex-col space-y-12">
+          <div className="md:col-span-8" >
+            <div className="flex flex-col space-y-12" data-aos="fade-left">
               {t.mission.items.map((item, index) => (
                 <div key={index} className="group flex flex-col md:flex-row gap-4 md:gap-8 items-start">
                   

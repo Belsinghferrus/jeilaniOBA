@@ -9,7 +9,8 @@ const ExecutiveCommittee = () => {
         <section className="py-24 bg-white">
             <div className="container mx-auto px-6 max-w-6xl">
 
-                <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start mb-16">
+                <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start mb-16" data-aos="fade-up"
+     data-aos-duration="3000">
 
                     {/* LEFT COLUMN: Header & Description */}
                     <div className="md:col-span-5">

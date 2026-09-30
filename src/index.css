@@ -1,3 +1,4 @@
+@import "aos/dist/aos.css";
 @import "tailwindcss";
 
 @theme {
@@ -18,5 +19,29 @@
     background-color: #F8F9FA;
     color: #1f2937; /* text-gray-800 */
     -webkit-font-smoothing: antialiased;
+  }
+}
+
+
+/* AOS — Smoother easing + prevent flash of unstyled content */
+[data-aos] {
+  pointer-events: auto;
+  transition-property: transform, opacity;
+}
+
+/* Prevent layout shift while elements are hidden */
+[data-aos="fade-up"],
+[data-aos="fade-down"],
+[data-aos="fade-left"],
+[data-aos="fade-right"] {
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }

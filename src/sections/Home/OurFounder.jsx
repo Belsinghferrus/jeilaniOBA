@@ -11,7 +11,7 @@ const OurFounder = () => {
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* LEFT COLUMN: Portrait Placeholder */}
-          <div className="md:col-span-5 relative">
+          <div className="md:col-span-5 relative" data-aos="flip-right">
             {/* Decorative background block */}
             <div className="absolute -top-4 -left-4 w-full h-full border-2 border-gold rounded-sm"></div>
             
@@ -34,7 +34,7 @@ const OurFounder = () => {
           </div>
 
           {/* RIGHT COLUMN: Founder Details */}
-          <div className="md:col-span-7">
+          <div className="md:col-span-7" data-aos="zoom-in">
             {/* Overline */}
             <div className="flex items-center space-x-3 mb-6">
               <span className="w-8 h-0.5 bg-gold"></span>

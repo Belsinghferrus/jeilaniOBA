@@ -52,7 +52,7 @@ const Home = () => {
                     <div className="grid md:grid-cols-2 gap-16 items-center">
 
                         {/* Image Side */}
-                        <div className="relative">
+                        <div className="relative" data-aos="fade-up">
                             <div className="absolute inset-0 bg-gold translate-x-4 translate-y-4 rounded-sm"></div>
                             {/* Replace with your actual image */}
                             <img
@@ -63,7 +63,7 @@ const Home = () => {
                         </div>
 
                         {/* Text Side */}
-                        <div>
+                        <div data-aos="fade-up">
                             <SectionTitle title={t.whoWeAre.title} />
                             <div className="space-y-6 text-gray-700 leading-relaxed text-justify">
                                 <p>{t.whoWeAre.p1}</p>
