@@ -42,7 +42,7 @@ const UpcomingEvents = () => {
         </div>
 
         {/* FEATURED EVENT */}
-        <div className="mb-20 bg-offwhite shadow-sm overflow-hidden grid md:grid-cols-12">
+        <div className="mb-20 bg-offwhite shadow-sm overflow-hidden grid md:grid-cols-12" data-aos="fade-right">
           
           {/* Date Block */}
           <div className="md:col-span-4 relative bg-[#660033] flex items-center justify-center p-10 md:p-14 min-h-[220px]">
@@ -114,6 +114,9 @@ const UpcomingEvents = () => {
             <div 
               key={index} 
               className="group flex flex-col border-t border-gray-300 pt-8 relative"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay={index * 100}
             >
               
               {/* Animated Top Accent */}

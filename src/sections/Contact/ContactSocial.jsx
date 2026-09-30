@@ -63,6 +63,9 @@ const ContactSocial = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-start border-t border-gray-300 pt-6 relative"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay={index * 100}
               >
                 
                 {/* Animated Top Accent */}

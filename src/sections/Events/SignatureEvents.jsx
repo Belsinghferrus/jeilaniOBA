@@ -21,7 +21,7 @@ const SignatureEvents = () => {
         </div>
 
         {/* Editorial Intro - Pull-Quote Style */}
-        <div className="relative mb-20 pl-6 md:pl-12 border-l-4 border-[#D4AF37]">
+        <div className="relative mb-20 pl-6 md:pl-12 border-l-4 border-[#D4AF37]" data-aos="flip-up">
           <span className="absolute -top-10 -left-4 text-8xl text-[#660033]/10 font-serif leading-none select-none">
             &ldquo;
           </span>
@@ -36,6 +36,9 @@ const SignatureEvents = () => {
             <div 
               key={index} 
               className="group flex flex-col border-t border-gray-300 pt-8 relative"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay={index * 100}
             >
               
               {/* Animated Top Accent */}

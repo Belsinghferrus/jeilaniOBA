@@ -9,7 +9,7 @@ const EventsAbout = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         
-        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start" data-aos="fade-right">
           
           {/* LEFT COLUMN: Sticky Title */}
           <div className="md:col-span-4">

@@ -16,7 +16,8 @@ const NewsletterIntro = () => {
       <div className="container mx-auto px-6 max-w-5xl relative z-10 text-center py-24">
         
         {/* Overline */}
-        <div className="flex justify-center items-center space-x-3 mb-8">
+        <div className="flex justify-center items-center space-x-3 mb-8"   data-aos="zoom-up"
+      data-aos-delay="300">
           <span className="w-12 h-0.5 bg-[#D4AF37]"></span>
           <span className="text-[#D4AF37] font-bold tracking-[0.25em] uppercase text-xs md:text-sm">
             {intro.overline}

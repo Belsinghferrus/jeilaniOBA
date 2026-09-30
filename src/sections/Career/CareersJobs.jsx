@@ -112,6 +112,9 @@ const CareersJobs = () => {
               <div
                 key={index}
                 className="group flex flex-col bg-white p-8 border-t-2 border-[#660033] hover:border-[#D4AF37] transition-colors duration-300 shadow-sm hover:shadow-md"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay={index * 100}
               >
                 
                 {/* Category Badge */}

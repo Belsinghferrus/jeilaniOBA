@@ -48,6 +48,9 @@ const NewsletterActions = () => {
               <div 
                 key={index} 
                 className="group flex flex-col border-t border-gray-300 pt-8 relative"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay={index * 100}
               >
                 
                 {/* Animated Top Accent */}

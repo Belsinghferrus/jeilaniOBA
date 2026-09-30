@@ -42,10 +42,12 @@ const ContactIntro = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         
-        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start" data-aos="fade-right"
+                data-aos-duration="700">
           
           {/* LEFT COLUMN: Sticky Title */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-4"   
+               >
             <div className="md:sticky md:top-32">
               
               {/* Overline */}
@@ -75,7 +77,9 @@ const ContactIntro = () => {
           {contactItems.map((item, index) => {
             const IconComponent = item.Icon;
             return (
-              <div key={index} className="group flex flex-col">
+              <div key={index} className="group flex flex-col"   data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay={index * 100}>
                 
                 {/* Icon */}
                 <div className="text-[#660033] group-hover:text-[#D4AF37] transition-colors duration-300 mb-5">
