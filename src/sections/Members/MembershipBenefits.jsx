@@ -42,7 +42,7 @@ const MembershipBenefits = () => {
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
-        
+
         {/* Section Header */}
         <div className="mb-16 max-w-3xl">
           <div className="flex items-center space-x-3 mb-5">
@@ -51,20 +51,24 @@ const MembershipBenefits = () => {
               {t.membershipPage.benefits.overline}
             </span>
           </div>
-          <SectionTitle 
-            title={t.membershipPage.benefits.title} 
+          <SectionTitle
+            title={t.membershipPage.benefits.title}
             subtitle={t.membershipPage.benefits.subtitle}
           />
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-14">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-14" >
           {benefits.map((benefit, index) => {
             const IconComponent = Icons[benefit.icon] || Icons.network;
             return (
-              <div 
-                key={index} 
+              <div
+
+                key={index}
                 className="group flex flex-col border-t border-gray-200 pt-8 relative"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay={index * 100}
               >
                 {/* Animated Top Accent */}
                 <div className="absolute top-0 left-0 h-px bg-[#660033] w-0 group-hover:w-full transition-all duration-500"></div>

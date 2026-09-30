@@ -29,6 +29,8 @@ const HowToRegister = () => {
             <div 
               key={index} 
               className="group relative pt-8 border-t border-gray-300"
+              data-aos="fade-up"
+              data-aos-delay={index * 120}
             >
               
               {/* Animated Top Accent */}

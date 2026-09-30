@@ -24,7 +24,7 @@ const ProjectsList = () => {
       <div className="container mx-auto px-6 max-w-6xl">
         
         {/* Section Header */}
-        <div className="mb-16 max-w-3xl">
+        <div className="mb-16 max-w-3xl" >
           <div className="flex items-center space-x-3 mb-5">
             <span className="w-8 h-0.5 bg-[#D4AF37]"></span>
             <span className="text-[#D4AF37] font-bold tracking-[0.2em] uppercase text-xs">
@@ -35,7 +35,7 @@ const ProjectsList = () => {
         </div>
 
         {/* FEATURED PROJECT */}
-        <div className="mb-20 bg-white shadow-sm overflow-hidden grid md:grid-cols-12">
+        <div className="mb-20 bg-white shadow-sm overflow-hidden grid md:grid-cols-12" data-aos="fade-left">
           
           {/* Featured Image */}
           <div className="md:col-span-5 relative aspect-[4/3] md:aspect-auto min-h-[300px] bg-[#660033]">
@@ -91,7 +91,8 @@ const ProjectsList = () => {
         {/* OTHER PROJECTS GRID */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
           {items.map((item, index) => (
-            <div key={index} className="group flex flex-col border-t border-gray-300 pt-6 relative">
+            <div key={index} className="group flex flex-col border-t border-gray-300 pt-6 relative"  data-aos="fade-up"
+            data-aos-delay={index * 120}>
               
               {/* Animated top accent */}
               <div className="absolute top-0 left-0 h-px bg-[#660033] w-0 group-hover:w-full transition-all duration-500"></div>

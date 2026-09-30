@@ -14,7 +14,8 @@ const MembershipCTA = () => {
         <div className="absolute -bottom-32 -left-32 w-[350px] h-[350px] border-[35px] border-[#D4AF37] rounded-full"></div>
       </div>
 
-      <div className="container mx-auto px-6 max-w-4xl text-center relative z-10">
+      <div className="container mx-auto px-6 max-w-4xl text-center relative z-10"  data-aos="fade-up"
+               >
         
         {/* Overline */}
         <div className="flex justify-center items-center space-x-3 mb-6">

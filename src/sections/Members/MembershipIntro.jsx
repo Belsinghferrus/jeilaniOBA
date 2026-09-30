@@ -8,7 +8,7 @@ const MembershipIntro = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-6xl">
         
-        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-12 gap-12 lg:gap-16 items-start" data-aos="fade-right">
           
           {/* LEFT COLUMN: Sticky Title */}
           <div className="md:col-span-4">
@@ -41,6 +41,8 @@ const MembershipIntro = () => {
           {t.membershipPage.intro.stats.map((stat, index) => (
             <div 
               key={index} 
+              data-aos="fade-right"
+              data-aos-delay={index * 120}
               className={`flex flex-col items-start md:items-center md:text-center ${
                 index !== 0 ? 'md:border-l md:border-gray-200' : ''
               }`}

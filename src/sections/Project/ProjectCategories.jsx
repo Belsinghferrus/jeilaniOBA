@@ -24,7 +24,8 @@ const ProjectCategories = () => {
           {t.projectsPage.categories.items.map((item, index) => (
             <div 
               key={index} 
-              className="group border-t border-gray-300 pt-8 relative"
+              className="group border-t border-gray-300 pt-8 relative"  data-aos="fade-up"
+              data-aos-delay={index * 120}
             >
               
               {/* Animated Top Accent */}
