@@ -1,57 +1,64 @@
 import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import AOS from 'aos';
 import AppRoutes from './routes/AppRoutes';
 import IntroLoader from './components/IntroLoader';
-import AOS from 'aos';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [isReady, setIsReady] = useState(false);
+  const location = useLocation();
 
-  const handleIntroComplete = () => {
-    setShowIntro(false);
-    setIsReady(true);
-  };
+  // Disable browser's automatic scroll restoration
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
 
-
+  // Initialize AOS once globally
   useEffect(() => {
     AOS.init({
-      duration: 800,          // Animation duration in ms
+      duration: 800,
       easing: 'ease-out-cubic',
-      once: true,             // Only animate once per page load
-      offset: 80,             // Trigger point (px from bottom of viewport)
-      delay: 0,               // Global delay
-      mirror: false,          // Don't animate out when scrolling past
+      once: false,
+      offset: 80,
+      delay: 0,
+      mirror: false,
       anchorPlacement: 'top-bottom',
     });
   }, []);
 
-  
-  // Prevent scroll while the intro is playing
+  // Refresh AOS on every route change — AFTER Framer Motion's exit animation completes
   useEffect(() => {
-    if (showIntro) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => {
-      document.body.style.overflow = '';
-    };
+    if (!isReady) return;
+
+    // Wait for exit animation (500ms) + enter to settle (100ms)
+    const timer = setTimeout(() => {
+      AOS.refreshHard();
+    }, 650);
+
+    return () => clearTimeout(timer);
+  }, [location.pathname, isReady]);
+
+  const handleIntroComplete = () => {
+    setShowIntro(false);
+    setIsReady(true);
+    // After intro, refresh AOS once
+    setTimeout(() => AOS.refreshHard(), 200);
+  };
+
+  useEffect(() => {
+    document.body.style.overflow = showIntro ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
   }, [showIntro]);
 
   return (
     <>
       {showIntro && <IntroLoader onComplete={handleIntroComplete} />}
-      
-      {/* Render routes only after intro completes */}
-      <div 
-        style={{ 
-          opacity: isReady ? 1 : 0, 
-          transition: 'opacity 0.4s ease',
-          pointerEvents: isReady ? 'auto' : 'none',
-        }}
-      >
-        <AppRoutes />
-      </div>
+      {isReady && <AppRoutes />}
+      {isReady && <ScrollToTop />}
     </>
   );
 }

@@ -13,23 +13,16 @@ import Privacy from '../pages/Privacy';
 import Terms from '../pages/Terms';
 import Refund from '../pages/Refund';
 import { AnimatePresence } from 'framer-motion';
-import ScrollToTop from '../components/ScrollToTop';
 import Feedback from '../pages/Feedback';
 import Careers from '../pages/Careers';
 
 
 const AppRoutes = () => {
     return (
-
-
         <>
-
-            <ScrollToTop />
-           
             <Routes>
                 {/* Redirect root to English */}
                 <Route path="/" element={<Navigate to="/en" replace />} />
-
                 {/* Dynamic Language Route */}
                 <Route path="/:lang" element={<MainLayout />}>
                     <Route index element={<Home />} />
